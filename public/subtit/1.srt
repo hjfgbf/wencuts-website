@@ -1,0 +1,856 @@
+1
+00:00:03,450 --> 00:00:06,507
+Hi, this is the homepage of DaVinci Resolve.
+
+2
+00:00:06,507 --> 00:00:08,735
+You can see the projects you have already done here.
+
+3
+00:00:08,875 --> 00:00:10,875
+I am going to open a new project now.
+
+4
+00:00:14,750 --> 00:00:16,750
+When we open DaVinci Resolve,
+
+5
+00:00:16,834 --> 00:00:19,368
+Media page, Cut page, Edit page, Grading page, Fairlight
+
+6
+00:00:19,368 --> 00:00:23,110
+page, and finally they would have given you the Delivery page.
+
+7
+00:00:23,110 --> 00:00:25,000
+First, let's go to the Edit page.
+
+8
+00:00:25,000 --> 00:00:28,791
+Go to the Edit page and click Media.
+
+9
+00:00:28,791 --> 00:00:32,336
+If you right click here, you will see Import Media.
+
+10
+00:00:32,696 --> 00:00:36,696
+If you click on it, you can import any media you want.
+
+11
+00:00:36,829 --> 00:00:38,127
+Now, I am going to...
+
+12
+00:00:39,190 --> 00:00:40,279
+Umm...
+
+13
+00:00:44,469 --> 00:00:46,735
+I have kept the coarse footage here.
+
+14
+00:00:46,829 --> 00:00:49,829
+I am going to import all the footage I need.
+
+15
+00:00:56,503 --> 00:00:59,004
+Here, it will ask change the frame rate.
+
+16
+00:00:59,004 --> 00:01:03,412
+It is up to you whether you want to change the frame rate or not.
+
+17
+00:01:03,619 --> 00:01:06,361
+I am going to drag this footage in the timeline.
+
+18
+00:01:08,727 --> 00:01:11,247
+I don't need audio. I will cut the audio.
+
+19
+00:01:12,079 --> 00:01:14,819
+Now, the next step is to go to the grading page.
+
+20
+00:01:19,000 --> 00:01:21,980
+Once you go to the page, the layout will look like this.
+
+21
+00:01:22,000 --> 00:01:24,367
+Before grading a footage, we need to know
+
+22
+00:01:24,367 --> 00:01:25,753
+why it is being shot in Log.
+
+23
+00:01:25,753 --> 00:01:28,834
+Why is the camera being shot in Log instead of Standard?
+
+24
+00:01:28,834 --> 00:01:31,260
+When we shoot in Standard, we don't get to see the
+
+25
+00:01:31,369 --> 00:01:33,151
+highlights and shadows in detail.
+
+26
+00:01:33,266 --> 00:01:36,698
+When we shoot in Log, we get to see the highlights and
+
+27
+00:01:36,698 --> 00:01:38,114
+shadows in detail.
+
+28
+00:01:38,190 --> 00:01:40,439
+Now, I am going to show you an example.
+
+29
+00:01:40,510 --> 00:01:43,830
+Here, we have the footage shot in Standard and in Log.
+
+30
+00:01:43,920 --> 00:01:46,000
+Let's see the variations in this.
+
+31
+00:01:46,228 --> 00:01:48,687
+This is the footage shot in Standard.
+
+32
+00:01:48,687 --> 00:01:51,390
+In this, the highlights will be more in this area.
+
+33
+00:01:51,390 --> 00:01:53,709
+The shadows will be darker in this area.
+
+34
+00:01:53,709 --> 00:01:54,709
+Why is it like this?
+
+35
+00:01:54,817 --> 00:01:57,309
+The highlights are more in the background than in the subject.
+
+36
+00:01:57,309 --> 00:02:00,000
+The shadows are more in the background than in the subject.
+
+37
+00:02:00,000 --> 00:02:02,612
+That is why, when we shoot in Standard, the highlights will
+
+38
+00:02:02,612 --> 00:02:04,159
+be over highlighted.
+
+39
+00:02:04,159 --> 00:02:06,459
+The shadows will be over shadowed.
+
+40
+00:02:06,459 --> 00:02:08,672
+Similarly, when we shoot in Log, this is the footage shot in Log.
+
+41
+00:02:09,090 --> 00:02:10,584
+This is the log footage.
+
+42
+00:02:10,584 --> 00:02:13,375
+The details got collected in the highlights.
+
+43
+00:02:13,715 --> 00:02:17,125
+It is difficult to get the details from the footage shot in Standard.
+
+44
+00:02:17,125 --> 00:02:19,623
+Even if we reduce the highlights and grade it,
+
+45
+00:02:19,623 --> 00:02:20,979
+it will look like a mashup.
+
+46
+00:02:21,000 --> 00:02:22,677
+We can't get the details from it.
+
+47
+00:02:22,677 --> 00:02:25,270
+If we grade it from the footage shot in Log,
+
+48
+00:02:25,270 --> 00:02:27,542
+we can get the details from it.
+
+49
+00:02:27,542 --> 00:02:30,000
+In this, the highlights are not over highlighted.
+
+50
+00:02:30,000 --> 00:02:32,000
+The shadows are not over highlighted.
+
+51
+00:02:32,152 --> 00:02:34,892
+Now we know why we shoot in Standard and Log.
+
+52
+00:02:34,892 --> 00:02:37,564
+When we shoot in Standard, we don't get the details from it.
+
+53
+00:02:37,564 --> 00:02:39,715
+When we shoot in Log, we get the details from it.
+
+54
+00:02:39,715 --> 00:02:41,032
+This is the job of the camera.
+
+55
+00:02:41,032 --> 00:02:43,431
+Now, let's see how to grade the footage.
+
+56
+00:02:43,431 --> 00:02:44,834
+Let me explain the tools first.
+
+57
+00:02:44,834 --> 00:02:46,159
+These are the primary color wheels.
+
+58
+00:02:46,159 --> 00:02:48,159
+These are the basic tools for color grading.
+
+59
+00:02:48,159 --> 00:02:50,444
+These are Lift, Gamma, Gain and Offset.
+
+60
+00:02:50,584 --> 00:02:52,584
+These four have different variations.
+
+61
+00:02:52,584 --> 00:02:55,209
+I will use the grayscale to show you the variations.
+
+62
+00:03:03,306 --> 00:03:04,528
+Lift is for contrast.
+
+63
+00:03:04,528 --> 00:03:05,883
+Gamma is also for contrast.
+
+64
+00:03:06,023 --> 00:03:08,213
+Let me show you the difference of these both.
+
+65
+00:03:09,319 --> 00:03:12,600
+Now, when we increase the contrast in Lift,
+
+66
+00:03:12,922 --> 00:03:16,136
+look at the feather rate of the grayscale.
+
+67
+00:03:16,786 --> 00:03:18,141
+Look at how sharp it is.
+
+68
+00:03:18,141 --> 00:03:21,204
+I will increase the contrast in Gamma.
+
+69
+00:03:22,077 --> 00:03:23,451
+Look at the feather rate of this.
+
+70
+00:03:24,000 --> 00:03:28,329
+The job of Lift is to increase the contrast in the videos
+
+71
+00:03:28,329 --> 00:03:30,000
+in the darker places.
+
+72
+00:03:30,000 --> 00:03:34,190
+The job of Gamma is to increase the contrast level in the
+
+73
+00:03:34,190 --> 00:03:38,797
+videos by increasing the feather rate of Gamma.
+
+74
+00:03:38,797 --> 00:03:41,127
+If the contrast is too high, the video will look black.
+
+75
+00:03:41,127 --> 00:03:43,583
+So we can use both Gamma and Lift in a video.
+
+76
+00:03:43,583 --> 00:03:44,387
+Now, Gain.
+
+77
+00:03:44,387 --> 00:03:49,922
+The job of Gain is to increase the highlight where there is highlights in the videos.
+
+78
+00:03:50,000 --> 00:03:52,651
+Now, if I increase the gain,
+
+79
+00:03:52,651 --> 00:03:55,448
+As you can see, the highlighted area get over highlighted.
+
+80
+00:03:55,448 --> 00:03:56,860
+This is the work of gain.
+
+81
+00:03:56,860 --> 00:03:58,420
+Next, we can see Off-set.
+
+82
+00:03:58,420 --> 00:04:00,000
+The use of Off-set is
+
+83
+00:04:00,000 --> 00:04:01,855
+Not of highlight or contrast.
+
+84
+00:04:01,855 --> 00:04:03,717
+To manage the colour tone, we use off-set
+
+85
+00:04:03,717 --> 00:04:06,000
+I will show you when I create the video.
+
+86
+00:04:06,000 --> 00:04:08,380
+Now, you have seen how Primary wheels work.
+
+87
+00:04:08,380 --> 00:04:11,025
+Next, we are going to see how Log wheels work.
+
+88
+00:04:11,025 --> 00:04:13,442
+You have a option in Primary color wheels.
+
+89
+00:04:13,442 --> 00:04:15,355
+If you click, the log wheels will change.
+
+90
+00:04:15,564 --> 00:04:19,899
+When we reduce the shadows, the place with shadows will
+
+91
+00:04:19,899 --> 00:04:21,042
+change to a prime contrast.
+
+92
+00:04:21,042 --> 00:04:23,623
+When we increase the contrast in the lifts, 
+
+93
+00:04:23,623 --> 00:04:24,728
+the look will be spread out.
+
+94
+00:04:24,728 --> 00:04:27,145
+When we increase the contrast in the shadows, the place
+
+95
+00:04:27,145 --> 00:04:29,658
+with contrast will remain the same.
+
+96
+00:04:30,797 --> 00:04:34,797
+The work of midtone is same like Gamma.
+
+97
+00:04:34,797 --> 00:04:37,658
+When we reduce the midtone, you can see a difference.
+
+98
+00:04:37,658 --> 00:04:39,791
+This will stop the contrast.
+
+99
+00:04:39,791 --> 00:04:41,089
+This will give a stop.
+
+100
+00:04:41,165 --> 00:04:44,750
+It will cut the variation between highlight and contrast.
+
+101
+00:04:44,842 --> 00:04:46,254
+Next, we will see the highlights.
+
+102
+00:04:46,254 --> 00:04:50,000
+There we have seen the highlight when we increase the gain.
+
+103
+00:04:50,000 --> 00:04:52,750
+We have done the same thing here, but we have made it sharper.
+
+104
+00:04:52,750 --> 00:04:56,000
+The offset is the same here.
+
+105
+00:04:56,000 --> 00:04:59,500
+We always use the offset when we fix the color tone.
+
+106
+00:04:59,500 --> 00:05:01,500
+Next, we are going to see HDR wheels.
+
+107
+00:05:01,639 --> 00:05:03,298
+You know what HDR wheels are.
+
+108
+00:05:03,298 --> 00:05:04,334
+High Dynamic Range.
+
+109
+00:05:04,334 --> 00:05:07,423
+HDR wheels are the wheels next to Primary wheels.
+
+110
+00:05:07,423 --> 00:05:08,550
+Here it is.
+
+111
+00:05:08,653 --> 00:05:10,729
+Now, I am adjusting the High Dynamic Range.
+
+112
+00:05:10,729 --> 00:05:12,729
+This will elevate in the gray scale.
+
+113
+00:05:12,729 --> 00:05:16,542
+High Dynamic Range will have dark, shadow, light and global.
+
+114
+00:05:16,542 --> 00:05:18,000
+Primary wheels are mandatory.
+
+115
+00:05:18,000 --> 00:05:22,000
+The functions of  are like Dark, Shadows, Light and Global
+
+116
+00:05:22,000 --> 00:05:24,797
+Lift, Gamma, Gain and Offset.
+
+117
+00:05:24,797 --> 00:05:26,892
+Now, I am adjusting the Dark.
+
+118
+00:05:26,892 --> 00:05:28,836
+When it elevates in the gray scale,
+
+119
+00:05:28,836 --> 00:05:30,834
+you can understand what is happening there.
+
+120
+00:05:30,834 --> 00:05:33,176
+When High Dynamic Range works, it does not disturb the
+
+121
+00:05:33,176 --> 00:05:35,709
+points where contrast and highlights intersect.
+
+122
+00:05:35,709 --> 00:05:39,918
+When I adjust here, the contrast is adjusted where there is more contrast.
+
+123
+00:05:40,899 --> 00:05:44,505
+When I do the same in the shadows, the contrast is adjusted.
+
+124
+00:05:44,505 --> 00:05:47,375
+It does not disturb the intersecting points.
+
+125
+00:05:47,375 --> 00:05:50,191
+When we do Primary and Log wheels,
+
+126
+00:05:50,191 --> 00:05:52,000
+it disturbs the intersecting points.
+
+127
+00:05:52,000 --> 00:05:54,000
+But when we do it in HDR, it does not.
+
+128
+00:05:54,000 --> 00:05:56,000
+Next, we are going to see the Graph.
+
+129
+00:05:56,000 --> 00:05:57,450
+The first option is
+
+130
+00:05:57,450 --> 00:05:58,834
+Curves Custom.
+
+131
+00:05:58,910 --> 00:06:02,808
+This is for...We can adjust the RGB with this.
+
+132
+00:06:02,808 --> 00:06:05,959
+Not only that, it is a major option to adjust the
+
+133
+00:06:05,959 --> 00:06:07,734
+highlights and contrast.
+
+134
+00:06:07,734 --> 00:06:11,981
+The benefit of the Graph is we can bring the contrast range equal to highlight.
+
+135
+00:06:11,981 --> 00:06:13,981
+You can see when I adjust the Graph.
+
+136
+00:06:14,000 --> 00:06:15,355
+I am adjusting the Graph.
+
+137
+00:06:16,817 --> 00:06:18,779
+You can see when I adjust the Graph.
+
+138
+00:06:18,779 --> 00:06:20,892
+The contrast side is highlighted.
+
+139
+00:06:20,892 --> 00:06:24,000
+But the intersecting point has more feather rate.
+
+140
+00:06:24,000 --> 00:06:26,000
+This is a big plus point in the Graph.
+
+141
+00:06:26,000 --> 00:06:28,698
+When we use the Graph to adjust the contrast, it is even
+
+142
+00:06:28,698 --> 00:06:30,209
+better to watch the video.
+
+143
+00:06:30,209 --> 00:06:33,307
+Not only can we adjust the contrast, we can also adjust the
+
+144
+00:06:33,307 --> 00:06:33,980
+highlights.
+
+145
+00:06:34,000 --> 00:06:37,070
+Now, we have a good clarity for contrast and highlights.
+
+146
+00:06:37,070 --> 00:06:38,569
+Why I said this is,
+
+147
+00:06:38,569 --> 00:06:40,701
+When we change the color from Log,
+
+148
+00:06:40,701 --> 00:06:42,987
+our first step is to  adjust the contrast and highlights.
+
+149
+00:06:42,987 --> 00:06:46,000
+Now, I am going to show you the other tools randomly.
+
+150
+00:06:46,000 --> 00:06:49,317
+In the next videos, we will see how to use the tools.
+
+151
+00:06:49,317 --> 00:06:50,899
+We have seen the Primary Log Wheels,
+
+152
+00:06:50,899 --> 00:06:53,886
+HDR, and this is RGB Mixer.
+
+153
+00:06:54,000 --> 00:06:56,550
+RGB Mixer is Red, Green, Blue.
+
+154
+00:06:56,550 --> 00:07:00,645
+RGB Mixer is a tool to control these three.
+
+155
+00:07:00,645 --> 00:07:02,000
+Then, Motion Effects.
+
+156
+00:07:02,000 --> 00:07:06,000
+Motion Effects are the grains in some of our videos.
+
+157
+00:07:06,000 --> 00:07:10,702
+Motion Effects is used to reduce the grains and to control it.
+
+158
+00:07:10,702 --> 00:07:12,000
+Then, Graph Page.
+
+159
+00:07:12,000 --> 00:07:14,273
+In the Graph Page, we have seen only one graph.
+
+160
+00:07:14,273 --> 00:07:16,432
+In the Graph Page, we have 7 tools.
+
+161
+00:07:16,432 --> 00:07:18,622
+7 tools are Hue vs Hue.
+
+162
+00:07:18,959 --> 00:07:22,048
+Hue vs Hue is to control the color in a video.
+
+163
+00:07:22,048 --> 00:07:24,363
+Red, Green, Blue, Orange, Pink 
+
+164
+00:07:24,363 --> 00:07:27,718
+We use Hue to bring many variations of colors in the video.
+
+165
+00:07:27,917 --> 00:07:29,084
+Hue vs Saturation.
+
+166
+00:07:29,084 --> 00:07:33,375
+In a video, we use this hue to increase pointed saturation.
+
+167
+00:07:33,375 --> 00:07:34,750
+hue vs luminance
+
+168
+00:07:34,750 --> 00:07:37,004
+luminance is considered as highlight.
+
+169
+00:07:37,004 --> 00:07:40,389
+In a colour changing place, if we want to raise the highlight 
+
+170
+00:07:40,389 --> 00:07:41,591
+or to lower the highlight
+
+171
+00:07:41,591 --> 00:07:42,994
+This graph is used.
+
+172
+00:07:42,994 --> 00:07:44,584
+Fifth, luminance vs Saturation.
+
+173
+00:07:44,584 --> 00:07:48,209
+luminance is to increasing or lowering the highlight in the saturation.
+
+174
+00:07:48,209 --> 00:07:50,209
+Sixth, Saturation vs Saturation.
+
+175
+00:07:50,209 --> 00:07:54,701
+Saturation is concentrated in R value that is Red Value.
+
+176
+00:07:54,701 --> 00:07:59,168
+After increasing Saturation, our video becomes more red
+
+177
+00:07:59,168 --> 00:08:01,168
+and it shows the over raised red in the video.
+
+178
+00:08:01,252 --> 00:08:03,391
+we use the graph to control that.
+
+179
+00:08:03,658 --> 00:08:05,658
+Finally, Saturation vs luminance.
+
+180
+00:08:05,772 --> 00:08:07,279
+Next tool, Color Slice.
+
+181
+00:08:07,279 --> 00:08:10,489
+Color Slice is used to separate the colors in a video.
+
+182
+00:08:10,489 --> 00:08:14,216
+For example, Yellow, Red, Blue and Green in a video.
+
+183
+00:08:14,216 --> 00:08:17,924
+Color Slice is used to separate these folur colors in a video.
+
+184
+00:08:18,000 --> 00:08:18,785
+Qualifier.
+
+185
+00:08:18,785 --> 00:08:23,584
+We use Qualifier to change the color of a subject.
+
+186
+00:08:23,677 --> 00:08:27,556
+For example, we can change the color of our skin tone or
+
+187
+00:08:27,556 --> 00:08:29,735
+the subject in the background.
+
+188
+00:08:30,000 --> 00:08:30,710
+Power Window.
+
+189
+00:08:30,710 --> 00:08:34,375
+We use Power Window to mask and change the color of a video.
+
+190
+00:08:34,375 --> 00:08:38,000
+It has 5 tools. Circle, Rectangle, Pen Tool.
+
+191
+00:08:38,000 --> 00:08:39,334
+We use Circle, Rectangle, Pen Tool to mask.
+
+192
+00:08:39,334 --> 00:08:40,375
+Tracking.
+
+193
+00:08:40,375 --> 00:08:48,254
+We use Tracking to track the face using the power window.
+
+194
+00:08:48,254 --> 00:08:50,000
+Next tool, Magic Masking.
+
+195
+00:08:50,000 --> 00:08:55,715
+Magic Masking is used to rotate and separate the subject.
+
+196
+00:08:55,715 --> 00:08:57,000
+Next tool, Blur.
+
+197
+00:08:57,000 --> 00:09:02,550
+Blur is used to control the sharpness and blur of a video.
+
+198
+00:09:02,550 --> 00:09:04,505
+If we decrease the blur, it becomes sharp and if we
+
+199
+00:09:04,505 --> 00:09:05,750
+increase it, it becomes blur.
+
+200
+00:09:05,750 --> 00:09:08,861
+Now we know the maximum tools in the color page.
+
+201
+00:09:08,861 --> 00:09:10,653
+I will tell you what Scopes are.
+
+202
+00:09:10,653 --> 00:09:12,653
+We call this Scopes.
+
+203
+00:09:12,653 --> 00:09:17,478
+Scopes are used to decide the value range of
+
+204
+00:09:17,478 --> 00:09:20,380
+Red, Green and Blue values in a video.
+
+205
+00:09:20,380 --> 00:09:22,417
+There are 5 types of Scopes.
+
+206
+00:09:22,417 --> 00:09:24,000
+Parade, Waveform, Vector Scope,
+
+207
+00:09:24,000 --> 00:09:26,625
+Histogram and CIE Chromaticity.
+
+208
+00:09:26,740 --> 00:09:29,203
+With these Scopes, we can calculate
+
+209
+00:09:29,203 --> 00:09:32,626
+RGB, Skin Tones and Highlights.
+
+210
+00:09:32,626 --> 00:09:35,507
+We have keyframes next to the Scopes.
+
+211
+00:09:35,507 --> 00:09:39,342
+In video editing, as we add keyframes to zoom in and zoom out.
+
+212
+00:09:39,342 --> 00:09:42,227
+Likewise we can add keyframes in colours to do ups and downs.
+
+213
+00:09:42,227 --> 00:09:43,866
+Color page introduction is over.
+
+214
+00:09:43,866 --> 00:09:46,459
+Let's see how to create a video from the next chapter.
+

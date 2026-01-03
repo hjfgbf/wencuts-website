@@ -1,0 +1,528 @@
+1
+00:00:03,520 --> 00:00:04,000
+Chapter 2
+
+2
+00:00:04,000 --> 00:00:06,000
+In our last video, we saw the tools in the color page.
+
+3
+00:00:06,000 --> 00:00:09,451
+We will see how to grade a video using those tools in the
+
+4
+00:00:09,451 --> 00:00:10,359
+coming videos.
+
+5
+00:00:10,480 --> 00:00:12,359
+I have already imported a footage here.
+
+6
+00:00:12,560 --> 00:00:16,000
+In color grading, our first step is to add notes.
+
+7
+00:00:16,000 --> 00:00:17,000
+Why do we add notes?
+
+8
+00:00:17,000 --> 00:00:19,817
+Only when we color layer by layer, we can separate the
+
+9
+00:00:19,817 --> 00:00:23,000
+subject and background in the video and show it beautifully.
+
+10
+00:00:23,000 --> 00:00:25,074
+The most important thing in this is that we should never
+
+11
+00:00:25,074 --> 00:00:26,000
+color in the first note.
+
+12
+00:00:26,000 --> 00:00:29,000
+We always add a note and start grading from there.
+
+13
+00:00:29,000 --> 00:00:32,000
+If we want to delete a color, we can delete it.
+
+14
+00:00:32,000 --> 00:00:34,164
+In the first step, I am going to raise the contrast in the
+
+15
+00:00:34,164 --> 00:00:34,500
+grading.
+
+16
+00:00:34,590 --> 00:00:37,657
+In log footage, the shadows are always filled to make it
+
+17
+00:00:37,657 --> 00:00:38,259
+look flat.
+
+18
+00:00:38,320 --> 00:00:41,099
+So when we raise the contrast, the subject and background
+
+19
+00:00:41,099 --> 00:00:42,270
+will be elevated first.
+
+20
+00:00:42,399 --> 00:00:44,000
+I will now raise the contrast in the lift.
+
+21
+00:00:48,530 --> 00:00:50,340
+I have kept it at minus till now.
+
+22
+00:00:50,500 --> 00:00:52,000
+I will now add the second note again.
+
+23
+00:00:52,000 --> 00:00:54,250
+I will add the same serial note with the add note.
+
+24
+00:00:54,869 --> 00:00:56,679
+Next, I will reduce the gamma.
+
+25
+00:00:56,789 --> 00:00:58,000
+I will keep the gamma at minus.
+
+26
+00:00:58,240 --> 00:01:00,660
+Why do I adjust the lift and gamma?
+
+27
+00:01:00,689 --> 00:01:03,189
+In the previous video, I told you that when we adjust the
+
+28
+00:01:03,189 --> 00:01:04,329
+lift, it will be sharper.
+
+29
+00:01:04,409 --> 00:01:07,000
+When we adjust the gamma, the feather rate will increase.
+
+30
+00:01:07,000 --> 00:01:09,438
+When I adjust the lift in the first note and gamma in the
+
+31
+00:01:09,438 --> 00:01:11,912
+second note, the contrast in the video will be calibrated
+
+32
+00:01:11,912 --> 00:01:12,390
+correctly.
+
+33
+00:01:12,540 --> 00:01:14,000
+I have added the third note now.
+
+34
+00:01:14,319 --> 00:01:16,319
+I will reduce the lift again.
+
+35
+00:01:16,489 --> 00:01:19,753
+Why? I need more contrast because there are some shadows
+
+36
+00:01:19,753 --> 00:01:20,219
+around.
+
+37
+00:01:21,469 --> 00:01:23,900
+In grading, the second step is to increase the highlight,
+
+38
+00:01:23,900 --> 00:01:25,180
+that is, adjust the exposure.
+
+39
+00:01:25,390 --> 00:01:27,170
+I will use the gain to adjust the highlight.
+
+40
+00:01:27,170 --> 00:01:30,000
+Because gain is the tool to adjust the highlight.
+
+41
+00:01:34,430 --> 00:01:35,430
+I have adjusted the gain.
+
+42
+00:01:35,430 --> 00:01:37,430
+This exposure is enough for me.
+
+43
+00:01:37,430 --> 00:01:40,430
+If I want, I can add another note and raise it.
+
+44
+00:01:41,510 --> 00:01:43,180
+I have added the next note again.
+
+45
+00:01:43,410 --> 00:01:45,730
+In grading, the third step is saturation.
+
+46
+00:01:47,060 --> 00:01:50,350
+I have kept the saturation at full in one note.
+
+47
+00:01:51,590 --> 00:01:53,590
+I will add another note in another note.
+
+48
+00:01:55,689 --> 00:01:58,480
+I have kept the saturation at full in this note.
+
+49
+00:01:59,000 --> 00:02:00,510
+I will add the next note.
+
+50
+00:02:00,730 --> 00:02:02,730
+I have kept the saturation at full in this note.
+
+51
+00:02:03,000 --> 00:02:04,500
+I will add another note again.
+
+52
+00:02:04,750 --> 00:02:06,299
+I will reduce the saturation in this note.
+
+53
+00:02:07,840 --> 00:02:10,608
+Why did I increase the saturation in two notes and reduce
+
+54
+00:02:10,608 --> 00:02:12,259
+the saturation in the third note?
+
+55
+00:02:12,439 --> 00:02:15,972
+I told you in the first class that saturation is always
+
+56
+00:02:15,972 --> 00:02:17,000
+boosted by red.
+
+57
+00:02:17,000 --> 00:02:20,713
+To control that red, I kept the saturation at full in two
+
+58
+00:02:20,713 --> 00:02:21,169
+notes.
+
+59
+00:02:21,229 --> 00:02:24,108
+When I reduce the saturation in the third note, the color
+
+60
+00:02:24,108 --> 00:02:25,219
+is easily calibrated.
+
+61
+00:02:25,439 --> 00:02:26,680
+I will add the next note.
+
+62
+00:02:27,000 --> 00:02:30,000
+In grading, the fourth step is WB, that is, white balance.
+
+63
+00:02:30,000 --> 00:02:32,692
+When we do white balance in a video, it is good to watch
+
+64
+00:02:32,692 --> 00:02:33,270
+that video.
+
+65
+00:02:33,659 --> 00:02:34,860
+I am adding a note.
+
+66
+00:02:34,860 --> 00:02:37,270
+I will decrease the temperature of this note.
+
+67
+00:02:40,000 --> 00:02:41,479
+Now I have decreased the temperature.
+
+68
+00:02:41,590 --> 00:02:43,000
+Let's see the difference between these two.
+
+69
+00:02:43,240 --> 00:02:45,240
+The video is looking yellow at first.
+
+70
+00:02:45,240 --> 00:02:49,099
+Now I will decrease the temperature and enable this note.
+
+71
+00:02:52,000 --> 00:02:54,069
+Now we have a similar tone in the video.
+
+72
+00:02:54,110 --> 00:02:55,810
+But this is the basic color grading.
+
+73
+00:02:55,810 --> 00:02:59,056
+Above this, there is tone fixing, masking, skin tone
+
+74
+00:02:59,056 --> 00:03:00,180
+calibrating, etc.
+
+75
+00:03:00,180 --> 00:03:02,000
+Now let's add the next note.
+
+76
+00:03:03,000 --> 00:03:04,000
+I added another note.
+
+77
+00:03:04,189 --> 00:03:07,124
+In this, the primary wheels would have given us an option
+
+78
+00:03:07,124 --> 00:03:08,000
+called contrast.
+
+79
+00:03:08,000 --> 00:03:11,562
+When I raise this, you will get a separation between the
+
+80
+00:03:11,562 --> 00:03:13,280
+background and foreground.
+
+81
+00:03:13,389 --> 00:03:15,259
+If you see now, I will disable it and show you.
+
+82
+00:03:15,669 --> 00:03:16,259
+Look at this.
+
+83
+00:03:17,000 --> 00:03:19,933
+Before adjusting the contrast, we would have had shadows in
+
+84
+00:03:19,933 --> 00:03:20,479
+the video.
+
+85
+00:03:20,560 --> 00:03:23,087
+Now if I increase the contrast, there will be a separation
+
+86
+00:03:23,087 --> 00:03:24,830
+between the subject and the background.
+
+87
+00:03:27,669 --> 00:03:29,000
+I will add the next note.
+
+88
+00:03:29,000 --> 00:03:32,000
+After adding the next note, I will go to log wheels.
+
+89
+00:03:32,210 --> 00:03:33,580
+I told you about log wheels.
+
+90
+00:03:33,580 --> 00:03:36,870
+Whichever place is darker should be over contrasted.
+
+91
+00:03:37,129 --> 00:03:38,979
+In this note, I will raise the shadows.
+
+92
+00:03:43,000 --> 00:03:44,699
+Now when you see, you will know the difference.
+
+93
+00:03:44,750 --> 00:03:47,876
+In the video, whichever place is darker, their hair, their
+
+94
+00:03:47,876 --> 00:03:50,139
+eyes, and the subjects in the background.
+
+95
+00:03:51,000 --> 00:03:52,330
+I will add the next note.
+
+96
+00:03:52,469 --> 00:03:55,469
+In this note, I am going to pick auto white balance.
+
+97
+00:03:56,229 --> 00:03:58,970
+If you take this qualifier and pick a place where their
+
+98
+00:03:58,970 --> 00:04:01,452
+face is yellow, the tone of the video will change
+
+99
+00:04:01,452 --> 00:04:02,060
+completely.
+
+100
+00:04:02,060 --> 00:04:04,180
+But using auto white balance is dangerous.
+
+101
+00:04:04,180 --> 00:04:05,419
+We can adjust it manually.
+
+102
+00:04:05,490 --> 00:04:06,759
+I will add the next note.
+
+103
+00:04:06,759 --> 00:04:09,110
+In this note, there is a tool called shadows.
+
+104
+00:04:09,110 --> 00:04:10,240
+I am going to minus this.
+
+105
+00:04:11,289 --> 00:04:14,301
+When I minus, what happens is, the place where the shadows
+
+106
+00:04:14,301 --> 00:04:16,430
+are already too much, will get decrease.
+
+107
+00:04:16,620 --> 00:04:17,840
+I will disable it and show you.
+
+108
+00:04:17,840 --> 00:04:18,620
+You will know this.
+
+109
+00:04:21,000 --> 00:04:22,540
+I have added the next note.
+
+110
+00:04:22,540 --> 00:04:24,209
+Now I am going to control the offset.
+
+111
+00:04:24,389 --> 00:04:26,250
+Offset is what I told you in the previous video.
+
+112
+00:04:26,339 --> 00:04:28,769
+It is used to change the tone of the video.
+
+113
+00:04:28,769 --> 00:04:32,210
+In a video, if we want a green tone, now usually what we do
+
+114
+00:04:32,210 --> 00:04:33,610
+is, we raise the green.
+
+115
+00:04:33,610 --> 00:04:36,230
+But in grading, we should not always raise the green.
+
+116
+00:04:36,230 --> 00:04:38,189
+For that, we have to decrease the opposite color.
+
+117
+00:04:38,189 --> 00:04:41,100
+When we do that, we will automatically rule the green value.
+
+118
+00:04:41,100 --> 00:04:43,639
+If you want a green tone, you have to decrease the red.
+
+119
+00:04:43,639 --> 00:04:45,519
+If you want a red tone, you have to decrease the green.
+
+120
+00:04:45,519 --> 00:04:47,395
+If you want a blue tone, you have to decrease both the red
+
+121
+00:04:47,395 --> 00:04:47,879
+and the green.
+
+122
+00:04:48,189 --> 00:04:50,529
+Now I am going to decrease the red value in that note.
+
+123
+00:04:52,000 --> 00:04:54,945
+When I decrease the red value, here you can see that the
+
+124
+00:04:54,945 --> 00:04:56,259
+green is majorly ruling.
+
+125
+00:04:56,360 --> 00:04:58,720
+So we have seen how to grade in a video.
+
+126
+00:04:58,720 --> 00:05:00,259
+But these are the basic colors.
+
+127
+00:05:00,259 --> 00:05:02,379
+Now let us see the difference between the log2 graded
+
+128
+00:05:02,379 --> 00:05:03,259
+footage we worked on.
+
+129
+00:05:08,220 --> 00:05:09,220
+This is the log footage.
+
+130
+00:05:09,610 --> 00:05:11,000
+And this is the basic graded.
+
+131
+00:05:11,480 --> 00:05:13,000
+That is all for the second chapter.
+
+132
+00:05:13,000 --> 00:05:14,850
+We will see further in the coming videos.
+

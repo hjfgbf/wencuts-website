@@ -1,0 +1,376 @@
+1
+00:00:03,459 --> 00:00:05,070
+Skin Calibrating and Qualifying
+
+2
+00:00:05,250 --> 00:00:06,769
+Why do we use Qualifying?
+
+3
+00:00:06,940 --> 00:00:09,320
+We use Qualifier for all single color patterns
+
+4
+00:00:09,439 --> 00:00:11,929
+When we use Qualifier for all single color patterns
+
+5
+00:00:11,929 --> 00:00:14,000
+That pattern will be shown as Qualifier
+
+6
+00:00:14,199 --> 00:00:15,640
+Now let's see how
+
+7
+00:00:16,000 --> 00:00:18,000
+I have already imported a footage
+
+8
+00:00:18,780 --> 00:00:20,000
+I will add it personally
+
+9
+00:00:22,300 --> 00:00:24,280
+I will give a basic grade
+
+10
+00:00:43,380 --> 00:00:46,520
+I have fixed a basic color tone as usual
+
+11
+00:00:46,520 --> 00:00:48,340
+Now let's see how to use Qualifier
+
+12
+00:00:49,600 --> 00:00:51,000
+I will add a new node
+
+13
+00:00:51,960 --> 00:00:55,571
+In this, there is an option called Qualifier near the power
+
+14
+00:00:55,571 --> 00:00:56,000
+window
+
+15
+00:00:56,429 --> 00:00:58,539
+Go inside and select this pin
+
+16
+00:00:59,000 --> 00:01:00,259
+Select this pin
+
+17
+00:01:01,000 --> 00:01:03,939
+If you point at the skin tone
+
+18
+00:01:03,939 --> 00:01:05,469
+It will pick the skin tone
+
+19
+00:01:05,790 --> 00:01:07,430
+If you want to see it clearly
+
+20
+00:01:07,430 --> 00:01:08,370
+Highlight it
+
+21
+00:01:08,760 --> 00:01:10,070
+After Highlighting
+
+22
+00:01:10,070 --> 00:01:12,710
+It will show the patches in skin tone
+
+23
+00:01:12,819 --> 00:01:14,689
+To clear this
+
+24
+00:01:14,689 --> 00:01:16,409
+There is a plus Qualifier
+
+25
+00:01:16,569 --> 00:01:17,659
+Choose that
+
+26
+00:01:17,939 --> 00:01:20,730
+After choosing, remove the paches
+
+27
+00:01:25,140 --> 00:01:28,450
+Now I have qualified the face oh the subject
+
+28
+00:01:28,450 --> 00:01:30,109
+But there are patches
+
+29
+00:01:30,109 --> 00:01:31,490
+Let's see how to clear this
+
+30
+00:01:31,920 --> 00:01:33,439
+In that Qualifier tool
+
+31
+00:01:33,439 --> 00:01:35,439
+There is an option called Blur Radius
+
+32
+00:01:35,439 --> 00:01:36,829
+Keep it at 100
+
+33
+00:01:38,859 --> 00:01:40,150
+After keeping it at 100
+
+34
+00:01:40,150 --> 00:01:41,890
+There is an option called Pre-Filter
+
+35
+00:01:41,890 --> 00:01:43,329
+Raise it a little
+
+36
+00:01:43,590 --> 00:01:44,939
+What Pre-Filter does is
+
+37
+00:01:44,939 --> 00:01:48,189
+It will clear all the pointed patches
+
+38
+00:01:48,189 --> 00:01:51,599
+Blur Radius is used to soften the edges
+
+39
+00:01:51,819 --> 00:01:54,000
+I am going to use Gain and Shadows
+
+40
+00:01:54,000 --> 00:01:55,370
+To calibrate the portion I qualified
+
+41
+00:01:56,430 --> 00:01:57,980
+First, I will raise the Gain
+
+42
+00:01:58,969 --> 00:02:00,359
+Then, I will raise the Shadow
+
+43
+00:02:02,170 --> 00:02:04,280
+There is a yellow light in the subject face
+
+44
+00:02:04,280 --> 00:02:05,659
+To clear that
+
+45
+00:02:05,659 --> 00:02:07,659
+We can reduce the Temperature and Saturation
+
+46
+00:02:16,139 --> 00:02:17,699
+We can turn off the Highlight
+
+47
+00:02:18,240 --> 00:02:19,250
+After turning it off
+
+48
+00:02:19,520 --> 00:02:20,990
+Look at the before and after
+
+49
+00:02:20,990 --> 00:02:22,439
+How the skin tone is calibrated
+
+50
+00:02:22,699 --> 00:02:25,931
+Now, we can clear the pores and pimples in the subject's
+
+51
+00:02:25,931 --> 00:02:26,219
+skin
+
+52
+00:02:28,919 --> 00:02:30,000
+In Primary Wheels
+
+53
+00:02:30,000 --> 00:02:31,259
+There is an option called Mid Details
+
+54
+00:02:31,280 --> 00:02:33,280
+If you keep it at minus, it will become soft
+
+55
+00:02:33,280 --> 00:02:34,669
+If you keep it at plus, it will become sharp
+
+56
+00:02:34,770 --> 00:02:36,750
+Let's keep it at minus 35
+
+57
+00:02:38,710 --> 00:02:40,000
+After smoothening the skin
+
+58
+00:02:40,000 --> 00:02:42,080
+The details in the subject's face will blend
+
+59
+00:02:42,080 --> 00:02:43,650
+So we have to add sharpness to this
+
+60
+00:02:45,479 --> 00:02:46,839
+I will add a new node
+
+61
+00:02:48,000 --> 00:02:49,060
+Let's go to Blur
+
+62
+00:02:51,490 --> 00:02:52,639
+After going to blur,
+
+63
+00:02:52,639 --> 00:02:54,500
+If the Radius is 0.47
+
+64
+00:02:54,500 --> 00:02:56,879
+We have to add texture to where it is blended
+
+65
+00:02:58,159 --> 00:02:59,360
+I will show you closely
+
+66
+00:03:01,349 --> 00:03:02,319
+Look at the difference
+
+67
+00:03:02,590 --> 00:03:04,200
+Before adding the Radius
+
+68
+00:03:04,349 --> 00:03:05,430
+After adding the Radius
+
+69
+00:03:05,759 --> 00:03:08,079
+If you don't add the Radius, it will be smooth
+
+70
+00:03:08,079 --> 00:03:10,579
+If you add the Radius, the skin will have this texture
+
+71
+00:03:10,579 --> 00:03:13,199
+In this footage, we have selected the subject's face
+
+72
+00:03:13,199 --> 00:03:14,219
+Qualified it
+
+73
+00:03:14,280 --> 00:03:15,599
+And done the shin calibrating too
+
+74
+00:03:15,650 --> 00:03:17,180
+In this graded footage,
+
+75
+00:03:17,180 --> 00:03:19,669
+To identify if the Highlight and Colors are correct
+
+76
+00:03:19,669 --> 00:03:20,449
+Let's check the Scope
+
+77
+00:03:20,449 --> 00:03:22,679
+I will open the Waveform in Scopes
+
+78
+00:03:22,930 --> 00:03:26,000
+In Waveform, the Highlight should not go above 1023
+
+79
+00:03:26,000 --> 00:03:27,419
+And the Shadows should not come below 768
+
+80
+00:03:27,419 --> 00:03:29,589
+The attribution of waveform is
+
+81
+00:03:29,589 --> 00:03:31,589
+In a video, If the Highlight is more on this side
+
+82
+00:03:31,589 --> 00:03:32,639
+And the Shadow is on the other side
+
+83
+00:03:32,719 --> 00:03:34,509
+The Waveform will be similar to that.
+
+84
+00:03:34,509 --> 00:03:37,169
+In Waveform, the Highlight will be more on the left side
+
+85
+00:03:37,169 --> 00:03:38,739
+And the Shadows will be more on the right side
+
+86
+00:03:38,739 --> 00:03:40,739
+To check if the Saturation is correct
+
+87
+00:03:40,739 --> 00:03:41,599
+Let's use the Parade
+
+88
+00:03:41,599 --> 00:03:44,530
+The Parade should not go above 1023 and the Shadows should
+
+89
+00:03:44,530 --> 00:03:45,489
+not come below 768
+
+90
+00:03:46,830 --> 00:03:48,830
+In Parade, the Red, Green and Blue
+
+91
+00:03:48,830 --> 00:03:52,000
+Did not go above 1023 and the Shadows did not come below 768
+
+92
+00:03:52,230 --> 00:03:56,379
+In this footage, the Highlight and Colors are correct
+
+93
+00:03:56,620 --> 00:03:58,299
+The 4th Chapter is completed
+
+94
+00:03:58,299 --> 00:04:00,129
+In the upcoming Chapter, we will see further
+

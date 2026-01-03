@@ -1,0 +1,632 @@
+1
+00:00:03,740 --> 00:00:06,665
+Hi, in this chapter, I am going to show you how to do day
+
+2
+00:00:06,665 --> 00:00:07,230
+for night.
+
+3
+00:00:07,610 --> 00:00:11,630
+Day for night means, we have shot a footage in the day.
+
+4
+00:00:11,679 --> 00:00:14,949
+We have to shift it to night in post.
+
+5
+00:00:14,949 --> 00:00:16,199
+We will see how to do that.
+
+6
+00:00:16,600 --> 00:00:18,750
+I have already imported a footage here.
+
+7
+00:00:18,750 --> 00:00:21,190
+We will see how to do day for night in this footage.
+
+8
+00:00:24,350 --> 00:00:26,730
+I will cut only the necessary portion in this footage.
+
+9
+00:00:28,710 --> 00:00:29,399
+I will cut the last part too.
+
+10
+00:00:32,659 --> 00:00:33,799
+I will remove the first frame.
+
+11
+00:00:35,000 --> 00:00:37,000
+Now, we will go to the color page.
+
+12
+00:00:38,450 --> 00:00:41,962
+Before doing day for night, we can bring this footage to a
+
+13
+00:00:41,962 --> 00:00:42,750
+basic color.
+
+14
+00:00:45,149 --> 00:00:46,649
+I will cut it like that.
+
+15
+00:00:47,780 --> 00:00:48,350
+A serial note.
+
+16
+00:00:51,780 --> 00:00:52,509
+I will reduce the Lift.
+
+17
+00:00:53,090 --> 00:00:55,539
+This way, we can reduce the contrast in everything.
+
+18
+00:00:55,539 --> 00:00:57,763
+Because we are doing day for night, if there is too much
+
+19
+00:00:57,763 --> 00:00:59,590
+contrast, it won't be good for day for night.
+
+20
+00:01:00,219 --> 00:01:01,320
+I will add a second node.
+
+21
+00:01:02,710 --> 00:01:03,859
+I will reduce the gamma.
+
+22
+00:01:08,480 --> 00:01:09,469
+I will add a third node.
+
+23
+00:01:11,590 --> 00:01:13,530
+We can slightly raise the gain this time.
+
+24
+00:01:19,900 --> 00:01:20,879
+I will add a fourth node.
+
+25
+00:01:23,369 --> 00:01:24,640
+I will increase the saturation.
+
+26
+00:01:25,430 --> 00:01:28,183
+I will increase the saturation in both the nodes and reduce
+
+27
+00:01:28,183 --> 00:01:29,210
+it in the third node.
+
+28
+00:01:40,280 --> 00:01:41,650
+I have reduced it in the third node.
+
+29
+00:01:44,239 --> 00:01:45,359
+I will add the next node.
+
+30
+00:01:46,480 --> 00:01:49,200
+In this node, we can start day for night.
+
+31
+00:01:49,390 --> 00:01:50,810
+First, I will go to the graph.
+
+32
+00:01:50,859 --> 00:01:53,859
+To do day for night, the tool we use the most is the graph.
+
+33
+00:01:54,340 --> 00:01:55,430
+I will go to curve custom.
+
+34
+00:01:56,409 --> 00:01:58,739
+I will link all the colors in this first.
+
+35
+00:01:59,359 --> 00:02:03,411
+If you drag and drop this place in the graph, the video
+
+36
+00:02:03,411 --> 00:02:04,590
+will look dull.
+
+37
+00:02:06,540 --> 00:02:08,069
+I will add the next node again.
+
+38
+00:02:10,889 --> 00:02:14,199
+In this node, I will reduce the saturation to this green.
+
+39
+00:02:14,370 --> 00:02:17,840
+In night, the color of the leaves won't be clear.
+
+40
+00:02:17,840 --> 00:02:19,420
+So, I will reduce the saturation.
+
+41
+00:02:20,449 --> 00:02:21,780
+I will go to the graph.
+
+42
+00:02:22,819 --> 00:02:24,319
+I will select the hue and saturation.
+
+43
+00:02:24,560 --> 00:02:25,689
+I will pin the green.
+
+44
+00:02:26,460 --> 00:02:27,569
+I will pin it and reduce the saturation.
+
+45
+00:02:30,240 --> 00:02:32,000
+I will add another node.
+
+46
+00:02:35,490 --> 00:02:38,490
+In this node, I will reduce the temperature.
+
+47
+00:02:38,490 --> 00:02:42,482
+In night, if the blue tone is high, it will give a night
+
+48
+00:02:42,482 --> 00:02:42,909
+feel.
+
+49
+00:02:48,250 --> 00:02:49,639
+I have reduced the temperature.
+
+50
+00:02:52,289 --> 00:02:53,549
+I will add another node.
+
+51
+00:02:55,210 --> 00:03:01,508
+In this node, I will qualify the highlights and make it
+
+52
+00:03:01,508 --> 00:03:02,310
+white.
+
+53
+00:03:02,310 --> 00:03:04,729
+Because there is no chance of getting blue in highlights.
+
+54
+00:03:04,729 --> 00:03:07,439
+So, I will reduce the blue in highlights.
+
+55
+00:03:15,229 --> 00:03:16,489
+I will increase the blur radius.
+
+56
+00:03:20,259 --> 00:03:21,969
+I will reduce the saturation.
+
+57
+00:03:25,689 --> 00:03:27,169
+I will add a serial node again.
+
+58
+00:03:30,189 --> 00:03:32,520
+In this node, we can use gamma light.
+
+59
+00:03:41,560 --> 00:03:42,960
+I will add the next node.
+
+60
+00:03:45,750 --> 00:03:48,120
+In this node, I will add maskings.
+
+61
+00:03:49,240 --> 00:03:50,969
+First, I will add a mask to this node.
+
+62
+00:03:57,680 --> 00:03:58,909
+I will increase the feather rate.
+
+63
+00:03:59,159 --> 00:04:00,680
+I will invert this mask.
+
+64
+00:04:01,110 --> 00:04:04,447
+After inverting, I will reduce the gain to the surrounding
+
+65
+00:04:04,447 --> 00:04:04,850
+areas.
+
+66
+00:04:18,030 --> 00:04:19,370
+I have reduced the gain.
+
+67
+00:04:19,370 --> 00:04:20,560
+I will show you the difference.
+
+68
+00:04:22,660 --> 00:04:24,660
+I will add another node.
+
+69
+00:04:26,060 --> 00:04:31,040
+I will copy this node and paste it in this node.
+
+70
+00:04:31,939 --> 00:04:36,379
+After pasting, I will off invert in masking.
+
+71
+00:04:37,479 --> 00:04:41,089
+After that, I will reset the primary wheels.
+
+72
+00:04:42,160 --> 00:04:44,810
+Here, I will increase the gain slightly in the face.
+
+73
+00:04:50,430 --> 00:04:51,589
+I will add the next node.
+
+74
+00:04:53,209 --> 00:04:56,670
+In the 15th node, I will increase the blue in gamma.
+
+75
+00:05:05,829 --> 00:05:07,409
+I will add another node.
+
+76
+00:05:10,430 --> 00:05:13,220
+In this node, I will reduce the highlight fully.
+
+77
+00:05:18,389 --> 00:05:19,910
+I will add another node.
+
+78
+00:05:22,879 --> 00:05:27,094
+In the 17th node, I will go to the RGB mixer and reduce the
+
+79
+00:05:27,094 --> 00:05:27,879
+blue tone.
+
+80
+00:05:41,349 --> 00:05:42,519
+I will add the next node.
+
+81
+00:05:47,550 --> 00:05:50,930
+In the 18th node, I will go to the masking and select the
+
+82
+00:05:50,930 --> 00:05:51,819
+gradient node.
+
+83
+00:05:53,399 --> 00:05:57,219
+I will face this side and darken the outside.
+
+84
+00:06:10,720 --> 00:06:12,040
+I will add the next node.
+
+85
+00:06:13,819 --> 00:06:15,599
+In this node, I will reduce the gamma slightly.
+
+86
+00:06:23,529 --> 00:06:24,959
+I will add another node.
+
+87
+00:06:27,319 --> 00:06:29,769
+In this node, I will reduce the temperature again.
+
+88
+00:06:39,500 --> 00:06:41,000
+I will add another node.
+
+89
+00:06:42,430 --> 00:06:44,220
+In this node, I will qualify.
+
+90
+00:06:44,889 --> 00:06:52,327
+If I qualify here, It will select the background except the
+
+91
+00:06:52,327 --> 00:06:54,469
+subject's face .
+
+92
+00:07:02,160 --> 00:07:03,360
+I will turn off the highlight.
+
+93
+00:07:04,389 --> 00:07:06,209
+Now, I will reduce the gain fully.
+
+94
+00:07:16,009 --> 00:07:17,680
+After reducing the gain,
+
+95
+00:07:17,740 --> 00:07:21,170
+The highlighed in the face gets desolved.
+
+96
+00:07:23,000 --> 00:07:24,319
+I will add another node.
+
+97
+00:07:28,610 --> 00:07:32,610
+In the graph, I will link all the colors.
+
+98
+00:07:33,439 --> 00:07:35,259
+I will decrease the graph.
+
+99
+00:07:55,110 --> 00:07:56,759
+I will add another node.
+
+100
+00:07:59,170 --> 00:08:01,470
+In this node, I will go to the HDR wheels.
+
+101
+00:08:03,209 --> 00:08:05,889
+In the HDR wheels, I will adjust the global.
+
+102
+00:08:05,889 --> 00:08:07,439
+The reason why I adjust the global is,
+
+103
+00:08:07,620 --> 00:08:10,430
+In the primary wheels, we will use color tone for offset.
+
+104
+00:08:10,480 --> 00:08:13,256
+If we want to make it more detailed, we can use the HDR
+
+105
+00:08:13,256 --> 00:08:13,660
+wheels.
+
+106
+00:08:13,810 --> 00:08:15,030
+In the HDR wheels, we will use global.
+
+107
+00:08:15,910 --> 00:08:19,510
+In the global, I will raise the point towards blue.
+
+108
+00:08:38,070 --> 00:08:40,600
+You can see the difference when I raise the point.
+
+109
+00:08:41,149 --> 00:08:44,490
+You can adjust the point according to your needs.
+
+110
+00:08:52,509 --> 00:08:54,509
+I have adjusted the global point.
+
+111
+00:08:54,710 --> 00:08:57,948
+After adjusting, I will decrease the exposure option which
+
+112
+00:08:57,948 --> 00:08:58,730
+is down here.
+
+113
+00:09:01,899 --> 00:09:04,445
+You can see the video becomes darker when I decrease the
+
+114
+00:09:04,445 --> 00:09:04,899
+exposure.
+
+115
+00:09:08,930 --> 00:09:10,740
+I will also decrease the saturation.
+
+116
+00:09:19,709 --> 00:09:21,299
+I will add the next node.
+
+117
+00:09:24,820 --> 00:09:26,190
+In this node, I will go to maskings.
+
+118
+00:09:27,000 --> 00:09:28,039
+I will use the pen tool.
+
+119
+00:09:31,789 --> 00:09:35,220
+I will draw the highlight points.
+
+120
+00:09:45,179 --> 00:09:47,989
+Increase the softness after the rough draw
+
+121
+00:09:48,940 --> 00:09:51,680
+I will adjust the feather rate inside.
+
+122
+00:09:54,340 --> 00:09:59,480
+I will go to the primary wheels and decrease the gain.
+
+123
+00:10:06,480 --> 00:10:10,717
+I will turn it off and show you the difference between the
+
+124
+00:10:10,717 --> 00:10:12,909
+previous and the current one.
+
+125
+00:10:13,440 --> 00:10:16,679
+When you are tracking, you have to do it frame by frame.
+
+126
+00:10:16,799 --> 00:10:19,539
+If you give auto-track, it may collapse.
+
+127
+00:10:22,919 --> 00:10:24,279
+I will add the next node again.
+
+128
+00:10:30,700 --> 00:10:33,811
+In the 24th node, I am going to reduce the Highlight and
+
+129
+00:10:33,811 --> 00:10:35,699
+Saturation in the Primary Wheels.
+
+130
+00:10:45,279 --> 00:10:46,769
+First I will reduce the Highlight.
+
+131
+00:10:49,779 --> 00:10:51,270
+Then I will reduce the Saturation.
+
+132
+00:10:52,279 --> 00:10:54,569
+Don't reduce the Saturation too much, just reduce it
+
+133
+00:10:54,569 --> 00:10:55,009
+slightly.
+
+134
+00:10:58,919 --> 00:11:01,487
+The reason why I have reduced the Saturation in the video
+
+135
+00:11:01,487 --> 00:11:04,005
+is, the color of the night will always be considered as
+
+136
+00:11:04,005 --> 00:11:04,279
+grey.
+
+137
+00:11:04,340 --> 00:11:09,679
+In the night mode, the color of the night is grey, not blue.
+
+138
+00:11:09,909 --> 00:11:13,358
+So to give a grey feel, if we dissolve all the colors, we
+
+139
+00:11:13,358 --> 00:11:14,689
+will get a grey feel.
+
+140
+00:11:19,440 --> 00:11:21,159
+I will add next node again.
+
+141
+00:11:23,299 --> 00:11:26,139
+In this, I will go to Blur and reduce the Radius.
+
+142
+00:11:29,289 --> 00:11:30,580
+I have reduced it to 0.4.
+
+143
+00:11:32,110 --> 00:11:33,610
+I will add the next node.
+
+144
+00:11:36,600 --> 00:11:39,719
+In this node, I will reduce the Color Boost in the Primary
+
+145
+00:11:39,719 --> 00:11:40,149
+Wheels.
+
+146
+00:11:42,639 --> 00:11:45,342
+When we reduce the Color Boost, we have to slightly
+
+147
+00:11:45,342 --> 00:11:48,463
+decrease the color of the major color we have ruled in the
+
+148
+00:11:48,463 --> 00:11:48,840
+video.
+
+149
+00:11:54,970 --> 00:11:57,330
+Day for Night has been completed.
+
+150
+00:11:57,330 --> 00:11:58,690
+Let's see the difference.
+
+151
+00:12:00,049 --> 00:12:01,289
+I will keep it on full screen.
+
+152
+00:12:04,970 --> 00:12:06,039
+This is the log footage.
+
+153
+00:12:07,230 --> 00:12:08,299
+And this is Day for Night.
+
+154
+00:12:09,589 --> 00:12:12,279
+In this footage, Day for Night is not proper.
+
+155
+00:12:12,429 --> 00:12:15,337
+If we want Day for Night to be proper, we have to shoot in
+
+156
+00:12:15,337 --> 00:12:16,139
+pre-production.
+
+157
+00:12:16,269 --> 00:12:19,318
+If you shoot in the place where the Highlight is less, you
+
+158
+00:12:19,318 --> 00:12:21,000
+can shoot Day for Night easily.
+

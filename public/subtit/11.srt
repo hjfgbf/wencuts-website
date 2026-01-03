@@ -1,0 +1,352 @@
+1
+00:00:03,240 --> 00:00:05,427
+In this chapter, I am going to tell you about the small
+
+2
+00:00:05,427 --> 00:00:06,780
+iconic points in Davinci Resolve.
+
+3
+00:00:06,780 --> 00:00:08,000
+Let's take a look at that.
+
+4
+00:00:08,240 --> 00:00:11,789
+I have already copied and pasted two footages.
+
+5
+00:00:15,429 --> 00:00:17,800
+I have a footage here and a footage here.
+
+6
+00:00:19,179 --> 00:00:20,410
+I am going to the color page.
+
+7
+00:00:23,170 --> 00:00:25,410
+I am going to disable the color of this video.
+
+8
+00:00:26,000 --> 00:00:27,859
+I am going to disable it and add only one node.
+
+9
+00:00:29,000 --> 00:00:32,170
+This footage is in the log and this footage is in the grid.
+
+10
+00:00:32,509 --> 00:00:36,479
+There is an option to short match this footage in the log.
+
+11
+00:00:36,850 --> 00:00:38,280
+Select this footage.
+
+12
+00:00:38,920 --> 00:00:41,552
+If you right click on this footage using the cursor, there
+
+13
+00:00:41,552 --> 00:00:43,640
+is an option called short match to this clip.
+
+14
+00:00:43,949 --> 00:00:45,719
+You just need to click it once.
+
+15
+00:00:46,420 --> 00:00:49,170
+The color in this footage will be applied to this footage.
+
+16
+00:00:49,350 --> 00:00:53,272
+If you are watching a movie and you like the color of that
+
+17
+00:00:53,272 --> 00:00:56,789
+movie, you can short match that color in a footage.
+
+18
+00:00:56,789 --> 00:00:58,140
+I will show you how to do that.
+
+19
+00:00:58,409 --> 00:01:00,390
+I have a footage in the movie.
+
+20
+00:01:00,549 --> 00:01:04,168
+If you want to apply the color in this footage, select this
+
+21
+00:01:04,168 --> 00:01:04,719
+footage.
+
+22
+00:01:05,159 --> 00:01:08,650
+If you right click on this footage and click on short match
+
+23
+00:01:08,650 --> 00:01:12,130
+to this clip, the color in this footage will be applied to
+
+24
+00:01:12,130 --> 00:01:12,969
+this footage.
+
+25
+00:01:13,709 --> 00:01:15,640
+How does this short match work?
+
+26
+00:01:15,640 --> 00:01:18,963
+If you shoot both the clips at the same exposure at the
+
+27
+00:01:18,963 --> 00:01:21,319
+same place, the short match will work.
+
+28
+00:01:21,390 --> 00:01:24,588
+If I shoot both the clips at the same exposure at the same
+
+29
+00:01:24,588 --> 00:01:27,069
+place, the colour will be completed applied.
+
+30
+00:01:27,260 --> 00:01:29,310
+Second, let's look at face refinement.
+
+31
+00:01:29,630 --> 00:01:31,230
+I have opened this footage.
+
+32
+00:01:31,540 --> 00:01:33,140
+I have already graded it.
+
+33
+00:01:34,370 --> 00:01:35,780
+I will add a new node.
+
+34
+00:01:39,269 --> 00:01:40,480
+Click on effects.
+
+35
+00:01:41,790 --> 00:01:46,000
+Type face refinement in the search box.
+
+36
+00:01:50,070 --> 00:01:51,730
+You will see an effect.
+
+37
+00:01:51,730 --> 00:01:53,730
+Drag it to that node.
+
+38
+00:01:58,090 --> 00:02:00,090
+Then a column will open with the effect.
+
+39
+00:02:00,290 --> 00:02:03,913
+If you type direct faces in frame, a box will be visible in
+
+40
+00:02:03,913 --> 00:02:04,650
+their face.
+
+41
+00:02:04,930 --> 00:02:08,224
+If you type forward tracking, the box will be visible in
+
+42
+00:02:08,224 --> 00:02:08,930
+their face.
+
+43
+00:02:09,789 --> 00:02:12,769
+After tracking, we can turn off the effects.
+
+44
+00:02:15,180 --> 00:02:16,580
+I will zoom in that footage.
+
+45
+00:02:23,870 --> 00:02:27,516
+In this footage, you can adjust the temperature, tint,
+
+46
+00:02:27,516 --> 00:02:29,879
+softness, brightness of your face.
+
+47
+00:02:30,159 --> 00:02:33,794
+In the face you have tracked, you can adjust the side
+
+48
+00:02:33,794 --> 00:02:37,826
+lighting, eye shadows, eyes, lips, teeth, blush, forehead,
+
+49
+00:02:37,826 --> 00:02:38,800
+cheeks, chin.
+
+50
+00:02:39,349 --> 00:02:41,200
+I will adjust it randomly.
+
+51
+00:02:41,620 --> 00:02:43,129
+There is an option called shine removal.
+
+52
+00:02:43,129 --> 00:02:46,257
+When I raise that option, the highlights in their face will
+
+53
+00:02:46,257 --> 00:02:47,000
+be dissolved.
+
+54
+00:02:47,000 --> 00:02:49,000
+We can increase that highlight.
+
+55
+00:02:51,409 --> 00:02:52,409
+I will reset it.
+
+56
+00:02:52,680 --> 00:02:54,000
+We can adjust the tint.
+
+57
+00:02:57,780 --> 00:02:59,310
+We can adjust the color boost.
+
+58
+00:03:02,650 --> 00:03:04,099
+We can adjust the midtone.
+
+59
+00:03:08,400 --> 00:03:09,930
+We can adjust the contrast.
+
+60
+00:03:13,270 --> 00:03:14,689
+We can even smoothen the skin.
+
+61
+00:03:15,009 --> 00:03:17,169
+You can see the difference when I adjust it,
+
+62
+00:03:19,360 --> 00:03:20,689
+note it in the face.
+
+63
+00:03:21,000 --> 00:03:23,469
+This area and this area will be smooth.
+
+64
+00:03:26,210 --> 00:03:26,790
+Can you see?
+
+65
+00:03:29,630 --> 00:03:30,580
+I will reset it.
+
+66
+00:03:31,069 --> 00:03:33,759
+If you open the teeth, you can adjust the brightness.
+
+67
+00:03:34,569 --> 00:03:36,099
+You can see the difference
+
+68
+00:03:39,139 --> 00:03:40,650
+you can adjust the teeth color.
+
+69
+00:03:44,379 --> 00:03:47,318
+Like this, you can adjust all the parts of the face
+
+70
+00:03:47,318 --> 00:03:48,009
+separately.
+
+71
+00:03:48,189 --> 00:03:50,509
+Third one, how to apply LUTs in the video?
+
+72
+00:03:50,770 --> 00:03:51,520
+It is simple.
+
+73
+00:03:51,820 --> 00:03:54,180
+In the left side corner, there is an option called LUTs.
+
+74
+00:03:54,460 --> 00:03:57,120
+Open the installed LUTs.
+
+75
+00:03:58,710 --> 00:04:01,180
+You just need to double tap the LUTs.
+
+76
+00:04:01,180 --> 00:04:03,280
+LUTs will be applied in this node.
+
+77
+00:04:03,850 --> 00:04:04,580
+Fourth one,
+
+78
+00:04:04,580 --> 00:04:05,210
+Lightbox.
+
+79
+00:04:07,139 --> 00:04:10,176
+If you work on a big project, there will be many clips in
+
+80
+00:04:10,176 --> 00:04:10,389
+it.
+
+81
+00:04:10,389 --> 00:04:13,109
+All the clips will be visible in the Lightbox.
+
+82
+00:04:14,180 --> 00:04:17,924
+When we add a node, we can even change the size of the
+
+83
+00:04:17,924 --> 00:04:18,410
+nodes.
+
+84
+00:04:21,000 --> 00:04:24,000
+There is an option called clip in the right side corner.
+
+85
+00:04:24,000 --> 00:04:27,202
+If you drag it, you can increase and decrease the size of
+
+86
+00:04:27,202 --> 00:04:27,819
+the nodes.
+
+87
+00:04:28,629 --> 00:04:31,925
+If you choose the hand mode while previewing the nodes, it
+
+88
+00:04:31,925 --> 00:04:33,629
+will be easy for you to drag.
+

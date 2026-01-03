@@ -1,0 +1,108 @@
+1
+00:00:03,200 --> 00:00:06,000
+In this chapter, I am going to tell you about color rules.
+
+2
+00:00:06,000 --> 00:00:10,000
+Color rules are always 60, 30, 10.
+
+3
+00:00:10,000 --> 00:00:14,393
+60% of color is dominant color, 30% of color is highlight
+
+4
+00:00:14,393 --> 00:00:17,399
+color, and 10% of color is for spices.
+
+5
+00:00:17,920 --> 00:00:19,640
+I already have a footage here.
+
+6
+00:00:19,780 --> 00:00:21,220
+I am going to enter the color page.
+
+7
+00:00:22,859 --> 00:00:23,879
+I am putting full screen.
+
+8
+00:00:25,000 --> 00:00:27,399
+In this video, only brown is dominant.
+
+9
+00:00:27,399 --> 00:00:29,433
+Color family may be there, but the palette should not
+
+10
+00:00:29,433 --> 00:00:29,739
+change.
+
+11
+00:00:29,739 --> 00:00:32,696
+Color family means, all similar colors are included in the
+
+12
+00:00:32,696 --> 00:00:33,409
+color family.
+
+13
+00:00:33,710 --> 00:00:36,000
+30% of color is in yellow.
+
+14
+00:00:36,000 --> 00:00:37,729
+Yellow is here, and yellow is here.
+
+15
+00:00:37,729 --> 00:00:41,000
+White and black do not come in the color palette.
+
+16
+00:00:41,000 --> 00:00:42,850
+White and black are always common.
+
+17
+00:00:42,850 --> 00:00:44,750
+So, we do not include them in the color palette.
+
+18
+00:00:45,159 --> 00:00:51,281
+In this, 60% of color is brown, 30% is yellow, and 10% is
+
+19
+00:00:51,281 --> 00:00:53,000
+red for spices.
+
+20
+00:00:53,149 --> 00:00:56,094
+When we shoot and grade, if we follow these color rules and
+
+21
+00:00:56,094 --> 00:00:58,439
+fix the pattern, the video will come out well.
+
+22
+00:00:58,630 --> 00:01:00,380
+What I just said are pattern rules.
+
+23
+00:01:00,380 --> 00:01:02,140
+There are many rules in color.
+
+24
+00:01:02,140 --> 00:01:03,630
+That is, emotions of color.
+
+25
+00:01:03,789 --> 00:01:06,000
+Each emotion has its own color.
+
+26
+00:01:06,269 --> 00:01:08,399
+I will finally display all of them to you.
+
+27
+00:01:08,399 --> 00:01:09,560
+Watch and learn.
+

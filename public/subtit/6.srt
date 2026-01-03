@@ -1,0 +1,408 @@
+1
+00:00:03,270 --> 00:00:03,999
+Chapter 6
+
+2
+00:00:03,999 --> 00:00:06,750
+Magic Masking and the Keyframes. Let's see how to do it.
+
+3
+00:00:06,839 --> 00:00:10,015
+I have already imported a footage. I will go to the other
+
+4
+00:00:10,015 --> 00:00:10,349
+page.
+
+5
+00:00:16,410 --> 00:00:19,230
+As usual, I will do the basic grade first.
+
+6
+00:00:24,670 --> 00:00:27,393
+I have done the basic grade in this video. Let's see how to
+
+7
+00:00:27,393 --> 00:00:28,640
+do the magic mask in this.
+
+8
+00:00:30,550 --> 00:00:32,000
+I will add a fresh node.
+
+9
+00:00:32,880 --> 00:00:33,780
+After adding it,
+
+10
+00:00:35,299 --> 00:00:38,370
+There is a tool called magic masking near the tracker.
+
+11
+00:00:38,370 --> 00:00:39,109
+Click on it.
+
+12
+00:00:40,000 --> 00:00:43,167
+Before drawing the magic masking, check if your video is in
+
+13
+00:00:43,167 --> 00:00:44,079
+the first frame.
+
+14
+00:00:44,240 --> 00:00:47,715
+I will change it to better here. I will draw a rough
+
+15
+00:00:47,715 --> 00:00:49,320
+diagram on the subject.
+
+16
+00:00:57,469 --> 00:01:00,288
+Every sketch we do one by one will be considered as a
+
+17
+00:01:00,288 --> 00:01:01,140
+single strokes.
+
+18
+00:01:05,200 --> 00:01:07,801
+I have drawn a rough diagram on the subject. Let's do
+
+19
+00:01:07,801 --> 00:01:08,980
+forward tracking on it.
+
+20
+00:01:09,129 --> 00:01:12,822
+After drawing, click on the forward tracking option. The
+
+21
+00:01:12,822 --> 00:01:15,129
+video will start tracking forward.
+
+22
+00:01:16,409 --> 00:01:19,120
+It will take some time, but the result will be better.
+
+23
+00:01:26,420 --> 00:01:30,034
+As soon as the magic masking is tracked, we can check the
+
+24
+00:01:30,034 --> 00:01:32,000
+highlight in the power window.
+
+25
+00:01:32,400 --> 00:01:33,799
+I will turn on the highlight now.
+
+26
+00:01:34,659 --> 00:01:37,267
+When I turn on the highlight, I can clearly see the edges
+
+27
+00:01:37,267 --> 00:01:38,000
+of the subject.
+
+28
+00:01:38,459 --> 00:01:40,000
+I will increase the radius now.
+
+29
+00:01:40,099 --> 00:01:43,744
+When I increase the radius, the feather rate will increase
+
+30
+00:01:43,744 --> 00:01:44,750
+in the subject.
+
+31
+00:01:46,469 --> 00:01:51,560
+The magic masking is used to separate the subject and to
+
+32
+00:01:51,560 --> 00:01:53,469
+animate the subject.
+
+33
+00:01:54,150 --> 00:01:57,121
+I will right click on the magic masking and connect it to
+
+34
+00:01:57,121 --> 00:01:58,060
+the alpha output.
+
+35
+00:01:59,840 --> 00:02:04,170
+I will go back to the edit page and duplicate this clip.
+
+36
+00:02:05,879 --> 00:02:08,304
+I have turned off the magic masking node in the first layer
+
+37
+00:02:08,304 --> 00:02:08,879
+of the video.
+
+38
+00:02:09,000 --> 00:02:10,870
+I have turned it on in the second layer only.
+
+39
+00:02:10,870 --> 00:02:14,104
+What we insert in between the first and second layers will
+
+40
+00:02:14,104 --> 00:02:16,000
+be reflected in the second layer.
+
+41
+00:02:16,259 --> 00:02:19,419
+I have the full video in the first layer and the alpha
+
+42
+00:02:19,419 --> 00:02:21,000
+output in the third layer.
+
+43
+00:02:21,080 --> 00:02:23,080
+Let's insert a text in the second layer.
+
+44
+00:02:28,810 --> 00:02:31,060
+I have inserted a basic text.
+
+45
+00:02:33,000 --> 00:02:34,610
+I will type Wencuts.
+
+46
+00:02:37,419 --> 00:02:40,233
+We have inserted the text behind the third layer of the
+
+47
+00:02:40,233 --> 00:02:40,949
+alpha output.
+
+48
+00:02:40,949 --> 00:02:43,689
+This text will be in the background of the subject.
+
+49
+00:02:51,750 --> 00:02:54,736
+Not only that, you can also lighten the subject that has
+
+50
+00:02:54,736 --> 00:02:55,750
+been magic masked.
+
+51
+00:02:58,849 --> 00:03:00,469
+I will increase the temperature now.
+
+52
+00:03:04,310 --> 00:03:06,633
+The temperature I have increased will be reflected in the
+
+53
+00:03:06,633 --> 00:03:07,000
+subject.
+
+54
+00:03:07,000 --> 00:03:09,199
+We don't have to do anything in the magic masking.
+
+55
+00:03:09,199 --> 00:03:11,340
+We just have to roughly draw the subject.
+
+56
+00:03:11,580 --> 00:03:13,340
+Next, let's look at the keyframes.
+
+57
+00:03:13,530 --> 00:03:15,310
+I will select the keyframe tool.
+
+58
+00:03:15,509 --> 00:03:17,069
+I will add a new node.
+
+59
+00:03:21,919 --> 00:03:23,539
+I am now in the 12th node.
+
+60
+00:03:23,770 --> 00:03:26,229
+The nodes are in the keyframes will shown as corrector.
+
+61
+00:03:26,229 --> 00:03:28,419
+I am now going to key the 12th corrector.
+
+62
+00:03:29,270 --> 00:03:31,970
+In this video, I will add a key to the 12th corrector in
+
+63
+00:03:31,970 --> 00:03:32,789
+the first frame.
+
+64
+00:03:33,000 --> 00:03:35,000
+I will add a key and increase the gain slightly.
+
+65
+00:03:35,550 --> 00:03:37,000
+The first key have been added.
+
+66
+00:03:37,520 --> 00:03:40,258
+I am going to add another key in the middle of this video
+
+67
+00:03:40,258 --> 00:03:41,220
+to reduce the gain.
+
+68
+00:03:43,000 --> 00:03:46,108
+Now, when I play the video, the range that I have set
+
+69
+00:03:46,108 --> 00:03:48,689
+before the video travels from here to here.
+
+70
+00:03:49,000 --> 00:03:51,739
+That is, from the first frame, until I set the next
+
+71
+00:03:51,739 --> 00:03:54,479
+keyframe, the colour will travel and be completed.
+
+72
+00:03:54,479 --> 00:03:57,345
+The reason why I use these keyframes is if you go from the
+
+73
+00:03:57,345 --> 00:04:00,048
+room to the outdoor, it will be dark in the indoor and
+
+74
+00:04:00,048 --> 00:04:01,199
+bright in the outdoor.
+
+75
+00:04:01,319 --> 00:04:03,801
+Before going from the indoor to the outdoor, this keyframe
+
+76
+00:04:03,801 --> 00:04:05,000
+is used for color changing.
+
+77
+00:04:05,139 --> 00:04:07,289
+There is another way to use this keyframe.
+
+78
+00:04:07,289 --> 00:04:08,379
+I will tell you that too.
+
+79
+00:04:10,000 --> 00:04:11,819
+First, I will go to the power window.
+
+80
+00:04:12,000 --> 00:04:14,150
+I will select a rectangle in the power window.
+
+81
+00:04:14,150 --> 00:04:17,321
+I will cover the rectangle so that the video is fully
+
+82
+00:04:17,321 --> 00:04:17,800
+spread.
+
+83
+00:04:25,450 --> 00:04:27,390
+In the rectangle power window that I selected,
+
+84
+00:04:27,390 --> 00:04:28,690
+I will set all the feathers to 0.
+
+85
+00:04:29,930 --> 00:04:30,930
+Go to soft,
+
+86
+00:04:30,930 --> 00:04:34,040
+Set here as 0.
+
+87
+00:04:34,329 --> 00:04:36,529
+Now all the edges will be dark.
+
+88
+00:04:37,459 --> 00:04:39,789
+In the first frame, I will add a keyframe like this.
+
+89
+00:04:46,319 --> 00:04:47,759
+In the middle of the video,
+
+90
+00:04:47,759 --> 00:04:49,170
+I will make sure that it is fully covered.
+
+91
+00:04:52,829 --> 00:04:53,769
+Now in the video,
+
+92
+00:04:53,849 --> 00:04:56,263
+I will raise the temperature in the first keyframe I set,
+
+93
+00:04:56,263 --> 00:04:58,719
+but I will not do anything in the middle of the keyframe.
+
+94
+00:04:58,839 --> 00:05:01,976
+The temperature that I set first will travel to the middle
+
+95
+00:05:01,976 --> 00:05:04,139
+of the frame through this power window.
+
+96
+00:05:09,389 --> 00:05:10,420
+Now let's see.
+
+97
+00:05:11,480 --> 00:05:14,271
+The window that I set first will travel to the middle of
+
+98
+00:05:14,271 --> 00:05:14,819
+the frame.
+
+99
+00:05:15,769 --> 00:05:18,393
+With this power window and keyframes, you can design your
+
+100
+00:05:18,393 --> 00:05:19,819
+video according to your sense.
+
+101
+00:05:19,889 --> 00:05:21,579
+Chapter 6 is completed with this.
+
+102
+00:05:21,579 --> 00:05:24,300
+In Chapter 7, let's see how to do low light grading.
+

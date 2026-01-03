@@ -1,0 +1,468 @@
+1
+00:00:03,279 --> 00:00:04,009
+Chapter 3
+
+2
+00:00:04,009 --> 00:00:06,820
+In the previous video, we saw how to bring log footage to a
+
+3
+00:00:06,820 --> 00:00:07,440
+basic grade.
+
+4
+00:00:07,490 --> 00:00:10,128
+We can also see how to mask that graded footage using a
+
+5
+00:00:10,128 --> 00:00:10,800
+power window.
+
+6
+00:00:10,800 --> 00:00:12,000
+There are three types of masking.
+
+7
+00:00:12,000 --> 00:00:14,869
+Highlight masking, shadow masking and alpha output.
+
+8
+00:00:14,869 --> 00:00:16,440
+We can see all three of them now.
+
+9
+00:00:16,750 --> 00:00:20,399
+Now, I will add the first node and grade the base.
+
+10
+00:00:25,539 --> 00:00:27,539
+I have set the necessary contrast in the lift.
+
+11
+00:00:28,399 --> 00:00:30,099
+In the second node, I will adjust the gamma.
+
+12
+00:00:32,119 --> 00:00:34,868
+In the third node, I will increase the gain as we saw in
+
+13
+00:00:34,868 --> 00:00:35,850
+the previous video.
+
+14
+00:00:38,409 --> 00:00:40,874
+In the fourth node, I will decrease the saturation in the
+
+15
+00:00:40,874 --> 00:00:42,949
+third node by increasing it in the 1st 2 nodes.
+
+16
+00:00:45,590 --> 00:00:48,787
+In the fourth node, I will decrease the temperature and
+
+17
+00:00:48,787 --> 00:00:49,660
+white balance.
+
+18
+00:00:51,550 --> 00:00:53,240
+Now, we have a basic grade.
+
+19
+00:00:53,539 --> 00:00:56,000
+We have a basic grade from log footage.
+
+20
+00:00:56,000 --> 00:01:00,000
+In this video, we will see how to mask using a power window.
+
+21
+00:01:01,750 --> 00:01:03,100
+I have added the next node.
+
+22
+00:01:03,820 --> 00:01:04,940
+I will go inside the power window.
+
+23
+00:01:07,629 --> 00:01:10,239
+First, I will add the gradient window.
+
+24
+00:01:10,670 --> 00:01:16,252
+The way this window works is, the side of the arrow mark
+
+25
+00:01:16,252 --> 00:01:16,950
+faces.
+
+26
+00:01:17,000 --> 00:01:18,409
+I will show you an example.
+
+27
+00:01:18,409 --> 00:01:20,709
+I will place it from this side.
+
+28
+00:01:21,420 --> 00:01:24,400
+I will go back to the primary wheels and reduce it.
+
+29
+00:01:33,219 --> 00:01:35,219
+I will show you the difference after reducing the gain.
+
+30
+00:01:35,219 --> 00:01:36,129
+I will show you an example.
+
+31
+00:01:45,099 --> 00:01:48,476
+If we place the gradient power window from the opposite
+
+32
+00:01:48,476 --> 00:01:51,299
+side of the light, it will be more effective.
+
+33
+00:01:53,430 --> 00:01:54,520
+I will add the next node.
+
+34
+00:01:56,500 --> 00:02:00,510
+In this node, I will add the circle window.
+
+35
+00:02:00,739 --> 00:02:02,000
+I will place it near her face.
+
+36
+00:02:03,239 --> 00:02:05,000
+I will adjust it in her face.
+
+37
+00:02:05,629 --> 00:02:08,779
+If you drag the point in the four corners, you can adjust
+
+38
+00:02:08,779 --> 00:02:09,000
+it.
+
+39
+00:02:09,379 --> 00:02:13,009
+If you drag the red dot in the circle, the feather rate
+
+40
+00:02:13,009 --> 00:02:14,000
+will increase.
+
+41
+00:02:14,000 --> 00:02:16,000
+If not, you can increase it here as well.
+
+42
+00:02:20,210 --> 00:02:22,460
+I adjusted it in her face.
+
+43
+00:02:24,069 --> 00:02:28,629
+In this node, I will increase both the gain and shadow.
+
+44
+00:02:31,110 --> 00:02:33,839
+The reason why I am increasing the shadow in this node is,
+
+45
+00:02:33,839 --> 00:02:35,910
+when we reduce the shadow, it becomes dark.
+
+46
+00:02:35,910 --> 00:02:39,346
+When we increase the shadow, it becomes brighter in darker
+
+47
+00:02:39,346 --> 00:02:39,820
+places.
+
+48
+00:02:39,820 --> 00:02:41,140
+That is why I am increasing the shadow.
+
+49
+00:02:42,840 --> 00:02:44,460
+I will add the next node.
+
+50
+00:02:46,000 --> 00:02:48,740
+In this node, I will choose the circle window again.
+
+51
+00:02:48,740 --> 00:02:52,069
+But, I am going to mask this circle window completely.
+
+52
+00:03:03,129 --> 00:03:04,699
+I will increase the feather rate.
+
+53
+00:03:04,909 --> 00:03:07,180
+Importantly, there is an option called invert.
+
+54
+00:03:07,379 --> 00:03:09,944
+If you click on it, the mask will start to fill the outer
+
+55
+00:03:09,944 --> 00:03:10,710
+area with color.
+
+56
+00:03:12,400 --> 00:03:13,669
+I have inverted it.
+
+57
+00:03:13,740 --> 00:03:17,230
+In the primary wheels, I will reduce the gamma.
+
+58
+00:03:21,810 --> 00:03:24,000
+After reducing the gamma, I will add the next node.
+
+59
+00:03:24,890 --> 00:03:26,140
+I will go back to the power window.
+
+60
+00:03:27,159 --> 00:03:30,000
+In the power window, I will choose the pen tool.
+
+61
+00:03:33,699 --> 00:03:37,262
+In the pen tool, I will draw the rectangle-like shadows on
+
+62
+00:03:37,262 --> 00:03:38,000
+the cheeks.
+
+63
+00:03:44,319 --> 00:03:45,409
+After drawing it,
+
+64
+00:03:45,409 --> 00:03:47,520
+I will increase the feather rate.
+
+65
+00:03:47,870 --> 00:03:50,347
+There is an option called whether the feather rate should
+
+66
+00:03:50,347 --> 00:03:51,389
+come inside or outside.
+
+67
+00:03:51,389 --> 00:03:52,810
+If we want it outside, we can keep it outside.
+
+68
+00:03:52,810 --> 00:03:54,150
+If we want it inside, we can keep it inside.
+
+69
+00:03:54,460 --> 00:03:55,689
+I have kept it outside.
+
+70
+00:03:56,469 --> 00:03:58,129
+I will go back to the primary wheels.
+
+71
+00:03:58,599 --> 00:03:59,729
+I will reduce the gain.
+
+72
+00:04:02,550 --> 00:04:03,949
+I will add the next node again.
+
+73
+00:04:05,159 --> 00:04:08,159
+So far, we have used the masking tool in four nodes.
+
+74
+00:04:08,349 --> 00:04:10,349
+Let's disable it.
+
+75
+00:04:21,519 --> 00:04:23,620
+This is what happens when there is no masking in the video.
+
+76
+00:04:23,800 --> 00:04:26,172
+If we add masking in the video itself and control the
+
+77
+00:04:26,172 --> 00:04:28,680
+highlight and shadows, the video will change like this.
+
+78
+00:04:29,269 --> 00:04:31,000
+Next, we are going to look at tracking.
+
+79
+00:04:31,000 --> 00:04:33,000
+Now, we have done the masking.
+
+80
+00:04:33,000 --> 00:04:33,839
+We have to track everything.
+
+81
+00:04:33,839 --> 00:04:34,949
+So, let's go to the tracker.
+
+82
+00:04:36,000 --> 00:04:38,290
+There is a tracker next to the power window.
+
+83
+00:04:39,509 --> 00:04:42,360
+First, I will choose the node that qualifies the face.
+
+84
+00:04:42,680 --> 00:04:44,339
+I have kept the video in the last frame.
+
+85
+00:04:44,339 --> 00:04:45,620
+So, I will give it a backward tracking.
+
+86
+00:04:46,000 --> 00:04:49,199
+If you click backward tracking, it will be backward tracked.
+
+87
+00:04:51,569 --> 00:04:53,569
+You can see that the face is being tracked.
+
+88
+00:04:57,009 --> 00:04:59,086
+As the face is being tracked backward, I have to do forward
+
+89
+00:04:59,086 --> 00:04:59,649
+tracking again.
+
+90
+00:04:59,649 --> 00:05:01,649
+Why? To make the tracker sharp.
+
+91
+00:05:11,560 --> 00:05:15,110
+Now, when we play it, the power window will travel with it.
+
+92
+00:05:25,019 --> 00:05:27,810
+I am going to track the other two nodes as well.
+
+93
+00:05:52,110 --> 00:05:53,110
+Another important thing.
+
+94
+00:05:53,110 --> 00:05:56,014
+The frame in which you are applying the power window, we
+
+95
+00:05:56,014 --> 00:05:58,089
+have to start tracking from that frame.
+
+96
+00:05:58,089 --> 00:06:00,000
+Otherwise, the tracking will collapse.
+
+97
+00:06:14,589 --> 00:06:16,969
+Now, we have tracked all the power windows that we added.
+
+98
+00:06:16,979 --> 00:06:18,909
+Next, let's see how the alpha output is.
+
+99
+00:06:21,490 --> 00:06:22,879
+I am in the 14th node now.
+
+100
+00:06:23,039 --> 00:06:25,239
+Again, I will choose a circle window.
+
+101
+00:06:25,769 --> 00:06:27,179
+I will choose it and place it near the face.
+
+102
+00:06:28,360 --> 00:06:30,100
+I will make the feather value 0.
+
+103
+00:06:30,379 --> 00:06:32,703
+If you right click from the nodes timeline, there will be
+
+104
+00:06:32,703 --> 00:06:34,129
+an option called add alpha output.
+
+105
+00:06:34,129 --> 00:06:36,503
+If you click on that, the output will be added in the blue
+
+106
+00:06:36,503 --> 00:06:36,790
+color.
+
+107
+00:06:37,020 --> 00:06:40,117
+If you connect the alpha point in the node to the output,
+
+108
+00:06:40,117 --> 00:06:42,400
+you will get the alpha output separately.
+
+109
+00:06:47,730 --> 00:06:51,623
+When you play this, the portion where you masked will be
+
+110
+00:06:51,623 --> 00:06:52,180
+played.
+
+111
+00:06:52,279 --> 00:06:55,300
+You have to decide where you can apply this alpha output.
+
+112
+00:06:55,300 --> 00:06:58,662
+In the masking that we did, not only the gain and shadows,
+
+113
+00:06:58,662 --> 00:07:00,460
+we can also change the colors.
+
+114
+00:07:01,910 --> 00:07:04,320
+I am increasing the temperature for their face.
+
+115
+00:07:07,610 --> 00:07:10,000
+Now, the temperature will increase for their face.
+
+116
+00:07:11,339 --> 00:07:14,000
+With this, the power window tracking class is complete.
+
+117
+00:07:14,000 --> 00:07:16,000
+We will see further in the next chapter.
+

@@ -1,0 +1,344 @@
+1
+00:00:03,419 --> 00:00:04,120
+Chapter 8
+
+2
+00:00:04,230 --> 00:00:05,839
+Special Effects and the Render Settings
+
+3
+00:00:05,839 --> 00:00:08,825
+When you create a video and render it, there are some
+
+4
+00:00:08,825 --> 00:00:09,839
+specific settings
+
+5
+00:00:10,140 --> 00:00:14,517
+In the settings, go to settings color management in the Da
+
+6
+00:00:14,517 --> 00:00:14,970
+Vanci
+
+7
+00:00:15,190 --> 00:00:18,162
+In the color management, go to Timeline Color Space and
+
+8
+00:00:18,162 --> 00:00:19,190
+Output Color Space
+
+9
+00:00:19,190 --> 00:00:22,000
+Both of these are in REC 709, so check them
+
+10
+00:00:22,339 --> 00:00:25,100
+And in the Da Vanci Resolve, go to Preferences
+
+11
+00:00:25,219 --> 00:00:26,440
+Choose Generals
+
+12
+00:00:26,440 --> 00:00:30,170
+Turn on Use Mac Display Color for Viewers
+
+13
+00:00:30,379 --> 00:00:34,000
+Use Mac Display Color will only show to Mac users
+
+14
+00:00:34,000 --> 00:00:35,979
+It won't show to Windows users
+
+15
+00:00:36,270 --> 00:00:37,000
+Special Effects
+
+16
+00:00:37,000 --> 00:00:40,371
+After creating a video, we can use these effects to add
+
+17
+00:00:40,371 --> 00:00:42,640
+glow, light rays and special effects
+
+18
+00:00:42,840 --> 00:00:45,000
+First, create a basic grade in the video
+
+19
+00:00:59,510 --> 00:01:00,930
+I'm in the 9th node now
+
+20
+00:01:00,930 --> 00:01:02,700
+There will be effects in the right side corner
+
+21
+00:01:02,700 --> 00:01:06,290
+Click on it, go to search and search for glow
+
+22
+00:01:06,370 --> 00:01:09,310
+Drag this glow and place it in the 9th node
+
+23
+00:01:09,900 --> 00:01:12,990
+After placing it, if you control it, the glow will rise in
+
+24
+00:01:12,990 --> 00:01:13,790
+the full video
+
+25
+00:01:14,510 --> 00:01:19,064
+To control it, go to the qualifier and qualify it where you
+
+26
+00:01:19,064 --> 00:01:19,450
+want
+
+27
+00:01:20,840 --> 00:01:21,939
+I'll turn on the highlight
+
+28
+00:01:27,000 --> 00:01:29,969
+I turned on the highlight and qualified it where I wanted
+
+29
+00:01:30,000 --> 00:01:32,489
+Now I'll drag the glow back and place it
+
+30
+00:01:33,769 --> 00:01:37,209
+Now when I raise the glow, the glow will rise in that place
+
+31
+00:01:37,389 --> 00:01:39,309
+I can also control the feather rate
+
+32
+00:01:39,680 --> 00:01:42,140
+Next, type light rays in the effects
+
+33
+00:01:44,239 --> 00:01:46,969
+Drag the light rays and place it in the 9th node
+
+34
+00:01:47,469 --> 00:01:50,129
+Wherever there is a highlight, the rays will form from there
+
+35
+00:01:50,129 --> 00:01:52,930
+It will be good when you try this in an outdoor footage
+
+36
+00:01:53,090 --> 00:01:55,719
+I'll add light rays in this footage
+
+37
+00:01:57,239 --> 00:01:59,430
+I'll drag the light rays and place it in the 11th node
+
+38
+00:01:59,540 --> 00:02:00,700
+It will form like this
+
+39
+00:02:00,750 --> 00:02:02,319
+I don't need it in all the places
+
+40
+00:02:02,319 --> 00:02:03,840
+I only need it in this place
+
+41
+00:02:03,959 --> 00:02:05,939
+I'll use masking and qualify it
+
+42
+00:02:17,469 --> 00:02:19,539
+We can even turn off the power window
+
+43
+00:02:22,060 --> 00:02:23,439
+I'll adjust it in this node
+
+44
+00:02:23,439 --> 00:02:26,129
+If you adjust the X and Y value, we can change the position
+
+45
+00:02:26,129 --> 00:02:26,949
+of the light rays
+
+46
+00:02:32,469 --> 00:02:35,180
+I'll increase the length of the light rays
+
+47
+00:02:36,699 --> 00:02:37,869
+I'll adjust the Y value
+
+48
+00:02:41,879 --> 00:02:43,859
+We can control the threshold of the light rays
+
+49
+00:02:47,689 --> 00:02:50,930
+We can even soften and sharpen the rays of the light rays
+
+50
+00:02:56,900 --> 00:02:59,879
+Now I'll turn off the light rays in this video
+
+51
+00:03:00,960 --> 00:03:02,719
+It will look like this when the light rays are turned on
+
+52
+00:03:04,240 --> 00:03:06,637
+If you use special effects like this in the video you are
+
+53
+00:03:06,637 --> 00:03:08,319
+grading, your video will be even better
+
+54
+00:03:08,319 --> 00:03:09,399
+Another important thing
+
+55
+00:03:09,469 --> 00:03:12,145
+You can even use the grab still for all the color scenes
+
+56
+00:03:12,145 --> 00:03:12,910
+you are grading
+
+57
+00:03:12,910 --> 00:03:15,329
+You can even use it for the next footage
+
+58
+00:03:15,639 --> 00:03:18,800
+If you right click on the footage you are grading, there is
+
+59
+00:03:18,800 --> 00:03:20,299
+an option called grab still
+
+60
+00:03:20,299 --> 00:03:22,625
+If you click on it, your let's save will appear in the
+
+61
+00:03:22,625 --> 00:03:22,969
+gallery
+
+62
+00:03:23,180 --> 00:03:23,840
+Then special effects
+
+63
+00:03:23,840 --> 00:03:26,120
+Let's see how to add a basic LED in special effects
+
+64
+00:03:26,349 --> 00:03:27,489
+Add a serial node
+
+65
+00:03:27,550 --> 00:03:30,760
+Drag the color space transform and add it to this
+
+66
+00:03:33,639 --> 00:03:37,909
+In the input color space, select the camera you took in this
+
+67
+00:03:37,909 --> 00:03:39,599
+I'll select Sony S-Gamut 3
+
+68
+00:03:40,689 --> 00:03:41,650
+Input gamma
+
+69
+00:03:42,930 --> 00:03:45,050
+We have to choose which log to shoot
+
+70
+00:03:45,050 --> 00:03:47,479
+This is Sony S-Log 3, I chose 3
+
+71
+00:03:47,930 --> 00:03:50,930
+In the output color space, we have to choose RED709
+
+72
+00:03:52,770 --> 00:03:55,810
+In the output gamma, we have to choose RED709A
+
+73
+00:04:01,840 --> 00:04:05,649
+You can bring a rush color video without controlling lift,
+
+74
+00:04:05,649 --> 00:04:07,159
+gamma, gain and offset
+
+75
+00:04:07,870 --> 00:04:08,870
+I'll show you the difference
+
+76
+00:04:09,650 --> 00:04:11,060
+Before and after
+
+77
+00:04:13,169 --> 00:04:15,409
+The reason why this basic LED is useful
+
+78
+00:04:15,409 --> 00:04:17,350
+If you apply this LED in the video before grading
+
+79
+00:04:17,350 --> 00:04:20,180
+It will be useful for you to get the saturation level equal
+
+80
+00:04:20,180 --> 00:04:20,899
+when you grade
+
+81
+00:04:20,899 --> 00:04:22,620
+Chapter 8 is completed with this
+
+82
+00:04:22,620 --> 00:04:25,859
+So far, we have covered the maximum tools in color page
+
+83
+00:04:25,859 --> 00:04:29,180
+After this, we have to learn how to grade using these tools
+
+84
+00:04:29,329 --> 00:04:32,363
+For that, I would have recorded the color grading in the
+
+85
+00:04:32,363 --> 00:04:34,259
+screen and put it in the voiceover
+
+86
+00:04:34,259 --> 00:04:35,160
+Check it out
+
