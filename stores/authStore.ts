@@ -17,6 +17,7 @@ interface AuthState {
   register: (name: string, email: string, mobile: string, otp: string) => Promise<boolean>;
   sendOTPNewUser: (mobile: string) => Promise<boolean>;
   registerNewUser: (name: string, email: string, mobile: string, otp: string, additionalData?: Partial<NewUserData>) => Promise<boolean>;
+  registerUserDirect: (name: string, email: string, mobile: string, password: string, additionalData?: Partial<NewUserData>) => Promise<boolean>;
   logout: () => void;
   sendOTP: (mobile: string) => Promise<boolean>;
   sendResetOTP: (contact: { email?: string; mobile_number?: string }) => Promise<boolean>;
@@ -211,6 +212,7 @@ export const useAuthStore = create<AuthState>()(
             username: email.split('@')[0],
             role: 'student',
             bio: '',
+            password_hash: 'otp_user', // Placeholder for legacy OTP flow
           };
 
           await userApi.addUser(userData);
@@ -307,6 +309,43 @@ export const useAuthStore = create<AuthState>()(
           return true;
         } catch (error: any) {
           // Try to get error message from the API response if available
+          const errorMessage = error?.response?.data?.message || 'Registration failed';
+          set({ error: errorMessage, loading: false });
+          return false;
+        }
+      },
+
+      registerUserDirect: async (name: string, email: string, mobile: string, password: string, additionalData?: Partial<NewUserData>): Promise<boolean> => {
+        set({ loading: true, error: null });
+        try {
+          // Check if user already exists
+          const existingUser = await get().fetchUserByMobile(mobile);
+          if (existingUser) {
+            set({ error: 'User already exists', loading: false });
+            return false;
+          }
+
+          const userData = {
+            name,
+            email,
+            mobile_number: mobile,
+            username: additionalData?.username || email.split('@')[0],
+            password_hash: password,
+            role: additionalData?.role || 'student',
+            bio: additionalData?.bio || '',
+            Date_of_birth: additionalData?.Date_of_birth || '',
+            email_verified: additionalData?.email_verified || false,
+            created_by: additionalData?.created_by || 'self',
+            updated_by: additionalData?.updated_by || 'self',
+            profile_picture_url: '',
+            ...additionalData
+          };
+
+          await userApi.addUser(userData);
+
+          set({ loading: false });
+          return true;
+        } catch (error: any) {
           const errorMessage = error?.response?.data?.message || 'Registration failed';
           set({ error: errorMessage, loading: false });
           return false;

@@ -27,8 +27,14 @@ export const userApi = {
     email: string;
     mobile_number: string;
     username: string;
+    password_hash: string;
     role?: string;
     bio?: string;
+    Date_of_birth?: string;
+    email_verified?: boolean;
+    created_by?: string;
+    updated_by?: string;
+    profile_picture_url?: string;
   }) => api.post('/api/user/add/', userData),
 };
 
