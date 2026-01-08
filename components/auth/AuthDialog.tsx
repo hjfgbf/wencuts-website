@@ -9,6 +9,14 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { useAuthStore } from '@/stores/authStore';
 import { toast } from 'sonner';
 import { Loader2, Phone, Shield, Eye, EyeOff } from 'lucide-react';
+import {
+  NativeSelect,
+  NativeSelectContent,
+  NativeSelectItem,
+  NativeSelectTrigger,
+  NativeSelectValue,
+} from '@/components/ui/native-select';
+import { COUNTRY_CODES } from '@/lib/constants';
 
 interface AuthDialogProps {
   open: boolean;
@@ -18,6 +26,7 @@ interface AuthDialogProps {
 export function AuthDialog({ open, onOpenChange }: AuthDialogProps) {
   const [currentTab, setCurrentTab] = useState('mobile-login');
   const [step, setStep] = useState<'mobile' | 'otp'>('mobile');
+  const [selectedCountry, setSelectedCountry] = useState('IN');
   const [mobile, setMobile] = useState('');
   const [otp, setOtp] = useState('');
   const [name, setName] = useState('');
@@ -29,11 +38,15 @@ export function AuthDialog({ open, onOpenChange }: AuthDialogProps) {
   const [showNewPassword, setShowNewPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
   const [forgotPassword, setForgotPassword] = useState(false);
+  const [loginMobileFormat, setLoginMobileFormat] = useState('');
 
-  const { login, loginWithEmail, register, sendOTP, sendOTPNewUser, registerNewUser, sendResetOTP, resetPassword, loading } = useAuthStore();
+  const { login, loginWithEmail, register, sendOTP, sendOTPNewUser, registerNewUser, registerUserDirect, sendResetOTP, resetPassword, loading } = useAuthStore();
+
+  const dialCode = COUNTRY_CODES.find(c => c.code === selectedCountry)?.dial_code || '+91';
 
   const resetForm = () => {
     setStep('mobile');
+    setSelectedCountry('IN');
     setMobile('');
     setOtp('');
     setName('');
@@ -45,17 +58,51 @@ export function AuthDialog({ open, onOpenChange }: AuthDialogProps) {
     setShowNewPassword(false);
     setShowConfirmPassword(false);
     setForgotPassword(false);
+    setLoginMobileFormat('');
   };
 
   const validatePassword = (pass: string) => {
-    if (pass.length < 6) {
-      return 'Password must be at least 6 characters long';
+    if (pass.length < 8) {
+      return 'Password must be at least 8 characters long';
     }
     const specialCharRegex = /[!@#$%^&*(),.?":{}|<>]/;
     if (!specialCharRegex.test(pass)) {
       return 'Password must contain at least one special character';
     }
     return null;
+  };
+
+  const handleRegister = async () => {
+    if (!name || !email || !password || !mobile || mobile.length < 10) {
+      toast.error('Please fill all fields correctly');
+      return;
+    }
+    if (!email.includes('@')) {
+      toast.error('Please enter a valid email address');
+      return;
+    }
+    const passwordError = validatePassword(password);
+    if (passwordError) {
+      toast.error(passwordError);
+      return;
+    }
+
+    try {
+      const cleanDialCode = dialCode.replace('+', '');
+      const success = await registerUserDirect(name, email, `${cleanDialCode}${mobile}`, password);
+
+      if (success) {
+        toast.success('Account created successfully');
+        setCurrentTab('mobile-login');
+        setStep('mobile');
+        setMobile(mobile);
+      } else {
+        const errorMessage = useAuthStore.getState().error;
+        toast.error(errorMessage || 'Registration failed');
+      }
+    } catch (error) {
+      toast.error('Registration failed');
+    }
   };
 
   const handleSendOTP = async () => {
@@ -75,11 +122,21 @@ export function AuthDialog({ open, onOpenChange }: AuthDialogProps) {
       if (forgotPassword) {
         success = await sendResetOTP({ email });
       } else if (currentTab === 'mobile-login') {
-        // Use existing user OTP API for login
-        success = await sendOTP(mobile);
-      } else {
-        // Use new user OTP API for registration
-        success = await sendOTPNewUser(mobile);
+        const mobileWithCode = `91${mobile}`;
+        success = await sendOTP(mobileWithCode);
+
+        if (success) {
+          setLoginMobileFormat(mobileWithCode);
+        } else {
+          const errorMsg = useAuthStore.getState().error;
+          console.log('Retrying with legacy format...', errorMsg);
+
+          success = await sendOTP(mobile);
+          if (success) {
+            setLoginMobileFormat(mobile);
+            useAuthStore.setState({ error: null });
+          }
+        }
       }
 
       if (success) {
@@ -115,14 +172,13 @@ export function AuthDialog({ open, onOpenChange }: AuthDialogProps) {
         }
         success = await resetPassword({ email, otp, password: newPassword });
       } else if (currentTab === 'mobile-login') {
-        success = await login(mobile, otp);
+        // Use the format that successfully sent the OTP
+        success = await login(loginMobileFormat, otp);
       } else {
         if (!name || !email) {
           toast.error('Please fill all fields');
           return;
         }
-        // Use the new user registration API
-        success = await registerNewUser(name, email, mobile, otp);
       }
 
       if (success) {
@@ -421,85 +477,80 @@ export function AuthDialog({ open, onOpenChange }: AuthDialogProps) {
               </TabsContent>
 
               <TabsContent value="register" className="space-y-4">
-                {step === 'mobile' ? (
-                  <>
-                    <div className="space-y-2">
-                      <Label htmlFor="register-name">Full Name</Label>
-                      <Input
-                        id="register-name"
-                        placeholder="Enter your full name"
-                        value={name}
-                        onChange={(e) => setName(e.target.value)}
-                      />
-                    </div>
-                    <div className="space-y-2">
-                      <Label htmlFor="register-email">Email</Label>
-                      <Input
-                        id="register-email"
-                        type="email"
-                        placeholder="Enter your email"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                      />
-                    </div>
-                    <div className="space-y-2">
-                      <Label htmlFor="register-mobile">Mobile Number</Label>
-                      <div className="flex">
-                        <span className="inline-flex items-center px-3 border border-r-0 border-border bg-muted rounded-l-md text-sm">
-                          +91
-                        </span>
-                        <Input
-                          id="register-mobile"
-                          placeholder="Enter mobile number"
-                          value={mobile}
-                          onChange={(e) => setMobile(e.target.value)}
-                          className="rounded-l-none"
-                        />
-                      </div>
-                    </div>
-                    <Button
-                      onClick={handleSendOTP}
-                      disabled={loading}
-                      className="w-full bg-primary text-primary-foreground hover:bg-primary/90"
+                <div className="space-y-2">
+                  <Label htmlFor="register-name">Full Name</Label>
+                  <Input
+                    id="register-name"
+                    placeholder="Enter your full name"
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                  />
+                </div>
+                <div className="space-y-2">
+                  <Label htmlFor="register-email">Email</Label>
+                  <Input
+                    id="register-email"
+                    type="email"
+                    placeholder="Enter your email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                  />
+                </div>
+                <div className="space-y-2">
+                  <Label htmlFor="register-password">Password</Label>
+                  <div className="relative">
+                    <Input
+                      id="register-password"
+                      type={showPassword ? "text" : "password"}
+                      placeholder="Create a password"
+                      value={password}
+                      onChange={(e) => setPassword(e.target.value)}
+                      className="pr-10"
+                    />
+                    <button
+                      type="button"
+                      onClick={() => setShowPassword(!showPassword)}
+                      className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground"
                     >
-                      {loading && <Loader2 className="h-4 w-4 mr-2 animate-spin" />}
-                      Send OTP
-                    </Button>
-                  </>
-                ) : (
-                  <>
-                    <div className="space-y-2">
-                      <Label htmlFor="register-otp">Enter OTP</Label>
-                      <Input
-                        id="register-otp"
-                        placeholder="Enter 6-digit OTP"
-                        value={otp}
-                        onChange={(e) => setOtp(e.target.value)}
-                        maxLength={6}
-                      />
-                      <p className="text-xs text-muted-foreground">
-                        OTP sent to +91{mobile}.
-                      </p>
-                    </div>
-                    <div className="flex gap-2">
-                      <Button
-                        variant="outline"
-                        onClick={() => setStep('mobile')}
-                        className="flex-1"
-                      >
-                        Back
-                      </Button>
-                      <Button
-                        onClick={handleVerifyOTP}
-                        disabled={loading}
-                        className="flex-1 bg-primary text-primary-foreground hover:bg-primary/90"
-                      >
-                        {loading && <Loader2 className="h-4 w-4 mr-2 animate-spin" />}
-                        Create Account
-                      </Button>
-                    </div>
-                  </>
-                )}
+                      {showPassword ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
+                    </button>
+                  </div>
+                </div>
+                <div className="space-y-2">
+                  <Label htmlFor="register-mobile">Mobile Number</Label>
+                  <div className="flex">
+                    <NativeSelect value={selectedCountry} onValueChange={setSelectedCountry}>
+                      <NativeSelectTrigger className="w-[100px] rounded-r-none border-r-0 focus:ring-0 bg-muted">
+                        <NativeSelectValue placeholder="Code" />
+                      </NativeSelectTrigger>
+                      <NativeSelectContent>
+                        {COUNTRY_CODES.map((country) => (
+                          <NativeSelectItem key={country.code} value={country.code}>
+                            <span className="flex items-center gap-2">
+                              <span>{country.code}</span>
+                              <span className="">{country.dial_code}</span>
+                            </span>
+                          </NativeSelectItem>
+                        ))}
+                      </NativeSelectContent>
+                    </NativeSelect>
+                    <Input
+                      id="register-mobile"
+                      placeholder="Enter mobile number"
+                      value={mobile}
+                      onChange={(e) => setMobile(e.target.value)}
+                      className="rounded-l-none"
+                    />
+                  </div>
+                </div>
+                <Button
+                  onClick={handleRegister}
+                  disabled={loading}
+                  className="w-full bg-primary text-primary-foreground hover:bg-primary/90"
+                >
+                  {loading && <Loader2 className="h-4 w-4 mr-2 animate-spin" />}
+                  Create Account
+                </Button>
               </TabsContent>
             </Tabs>
           </>
