@@ -343,7 +343,26 @@ export const useAuthStore = create<AuthState>()(
 
           await userApi.addUser(userData);
 
-          set({ loading: false });
+          const newUser: User = {
+            id: mobile,
+            name,
+            email,
+            mobile_number: mobile,
+            username: userData.username,
+            role: userData.role as 'student' | 'admin',
+            bio: userData.bio,
+            email_verified: userData.email_verified,
+            created_by: userData.created_by,
+            updated_by: userData.updated_by,
+            purchasedCourses: [],
+          };
+
+          set({
+            user: newUser,
+            isAuthenticated: true,
+            isAdmin: newUser.role === 'admin',
+            loading: false,
+          });
           return true;
         } catch (error: any) {
           const errorMessage = error?.response?.data?.message || 'Registration failed';
