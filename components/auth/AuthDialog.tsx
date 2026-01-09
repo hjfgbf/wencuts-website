@@ -92,10 +92,9 @@ export function AuthDialog({ open, onOpenChange }: AuthDialogProps) {
       const success = await registerUserDirect(name, email, `${cleanDialCode}${mobile}`, password);
 
       if (success) {
-        toast.success('Account created successfully');
-        setCurrentTab('mobile-login');
-        setStep('mobile');
-        setMobile(mobile);
+        toast.success('Account created successfully! Welcome to Wencuts.');
+        onOpenChange(false);
+        resetForm();
       } else {
         const errorMessage = useAuthStore.getState().error;
         toast.error(errorMessage || 'Registration failed');
